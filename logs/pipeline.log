@@ -1,1 +1,146 @@
 {"ts": 1787925157.745, "level": "INFO", "msg": "smoke test \u2014 settings: {'questions_csv': 'data/questions.csv', 'results_json': 'results.json', 'results_db': 'results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': True}", "logger": "pipeline"}
+{"ts": 1787931722.954, "level": "INFO", "msg": "config: {'questions_csv': 'data/questions.csv', 'results_json': 'results.json', 'results_db': 'results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': True}", "logger": "pipeline"}
+{"ts": 1787931723.837, "level": "INFO", "msg": "asked: What is RAG in one sentence?", "logger": "pipeline"}
+{"ts": 1787931723.943, "level": "INFO", "msg": "asked: Name three uses of vector databases.", "logger": "pipeline"}
+{"ts": 1787931724.047, "level": "INFO", "msg": "asked: Why might an LLM hallucinate?", "logger": "pipeline"}
+{"ts": 1787933114.62, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1787933114.62, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1787933115.151, "level": "INFO", "msg": "asked: Why might an LLM produce confident but i", "logger": "pipeline"}
+{"ts": 1787933115.328, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1787933115.367, "level": "INFO", "msg": "asked: What is a Pydantic BaseModel and when wo", "logger": "pipeline"}
+{"ts": 1787933115.603, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1787933115.902, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1787933116.003, "level": "INFO", "msg": "batch 2: 5 questions", "logger": "pipeline"}
+{"ts": 1787933116.433, "level": "INFO", "msg": "asked: List three common chunking strategies fo", "logger": "pipeline"}
+{"ts": 1787933116.909, "level": "INFO", "msg": "asked: What is the difference between a chatbot", "logger": "pipeline"}
+{"ts": 1787933117.061, "level": "INFO", "msg": "asked: When would you choose fine-tuning over R", "logger": "pipeline"}
+{"ts": 1787933117.157, "level": "INFO", "msg": "asked: Give a one-line definition of an embeddi", "logger": "pipeline"}
+{"ts": 1787933117.206, "level": "INFO", "msg": "asked: Why do we use exponential backoff for re", "logger": "pipeline"}
+{"ts": 1787933117.307, "level": "INFO", "msg": "batch 3: 5 questions", "logger": "pipeline"}
+{"ts": 1787933117.726, "level": "INFO", "msg": "asked: What is the role of a system prompt?", "logger": "pipeline"}
+{"ts": 1787933118.264, "level": "INFO", "msg": "asked: What is the purpose of a .env file?", "logger": "pipeline"}
+{"ts": 1787933118.414, "level": "INFO", "msg": "asked: Explain what asyncio.gather does in one ", "logger": "pipeline"}
+{"ts": 1787933118.464, "level": "INFO", "msg": "asked: Name two trade-offs of long-context prom", "logger": "pipeline"}
+{"ts": 1787933118.718, "level": "INFO", "msg": "asked: Why is structured logging useful for AI ", "logger": "pipeline"}
+{"ts": 1787933118.818, "level": "INFO", "msg": "batch 4: 5 questions", "logger": "pipeline"}
+{"ts": 1787933119.184, "level": "INFO", "msg": "asked: What is the difference between batching ", "logger": "pipeline"}
+{"ts": 1787933119.312, "level": "INFO", "msg": "asked: What is the role of a retriever in a RAG", "logger": "pipeline"}
+{"ts": 1787933119.426, "level": "INFO", "msg": "asked: Give one example of when NOT to use an L", "logger": "pipeline"}
+{"ts": 1787933119.535, "level": "INFO", "msg": "asked: What does temperature do in an LLM call?", "logger": "pipeline"}
+{"ts": 1787933119.95, "level": "INFO", "msg": "asked: What is the difference between sync and ", "logger": "pipeline"}
+{"ts": 1787933120.051, "level": "INFO", "msg": "done: 20 answers in 5.43s", "logger": "pipeline"}
+{"ts": 1787933999.174, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1787933999.174, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1787933999.541, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1787934000.003, "level": "INFO", "msg": "asked: What is a Pydantic BaseModel and when wo", "logger": "pipeline"}
+{"ts": 1787934000.143, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1787934000.147, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1787934000.509, "level": "INFO", "msg": "asked: Why might an LLM produce confident but i", "logger": "pipeline"}
+{"ts": 1787934000.61, "level": "INFO", "msg": "batch 2: 5 questions", "logger": "pipeline"}
+{"ts": 1787934000.924, "level": "INFO", "msg": "asked: What is the difference between a chatbot", "logger": "pipeline"}
+{"ts": 1787934001.14, "level": "INFO", "msg": "asked: Why do we use exponential backoff for re", "logger": "pipeline"}
+{"ts": 1787934001.788, "level": "INFO", "msg": "asked: When would you choose fine-tuning over R", "logger": "pipeline"}
+{"ts": 1787934001.807, "level": "INFO", "msg": "asked: List three common chunking strategies fo", "logger": "pipeline"}
+{"ts": 1787934001.89, "level": "INFO", "msg": "asked: Give a one-line definition of an embeddi", "logger": "pipeline"}
+{"ts": 1787934001.991, "level": "INFO", "msg": "batch 3: 5 questions", "logger": "pipeline"}
+{"ts": 1787934002.356, "level": "INFO", "msg": "asked: What is the purpose of a .env file?", "logger": "pipeline"}
+{"ts": 1787934002.599, "level": "INFO", "msg": "asked: Name two trade-offs of long-context prom", "logger": "pipeline"}
+{"ts": 1787934002.649, "level": "INFO", "msg": "asked: Explain what asyncio.gather does in one ", "logger": "pipeline"}
+{"ts": 1787934002.652, "level": "INFO", "msg": "asked: Why is structured logging useful for AI ", "logger": "pipeline"}
+{"ts": 1787934003.049, "level": "INFO", "msg": "asked: What is the role of a system prompt?", "logger": "pipeline"}
+{"ts": 1787934003.15, "level": "INFO", "msg": "batch 4: 5 questions", "logger": "pipeline"}
+{"ts": 1787934003.671, "level": "INFO", "msg": "asked: What is the difference between sync and ", "logger": "pipeline"}
+{"ts": 1787934003.871, "level": "INFO", "msg": "asked: What does temperature do in an LLM call?", "logger": "pipeline"}
+{"ts": 1787934003.972, "level": "INFO", "msg": "asked: What is the role of a retriever in a RAG", "logger": "pipeline"}
+{"ts": 1787934004.093, "level": "INFO", "msg": "asked: What is the difference between batching ", "logger": "pipeline"}
+{"ts": 1787934004.191, "level": "INFO", "msg": "asked: Give one example of when NOT to use an L", "logger": "pipeline"}
+{"ts": 1787934004.292, "level": "INFO", "msg": "summary: {\"started_at\":1787933999.1739209,\"elapsed_seconds\":5.118077278137207,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.0020000000000000005,\"fail_rate\":0.0,\"use_fake\":true}", "logger": "pipeline"}
+{"ts": 1787934212.062, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1787934212.062, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1787934212.454, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1787934212.507, "level": "WARNING", "msg": "retry 1 for: Explain async and await in plain languag (simulated transient failure for: Explain async and await in plain languag)", "logger": "pipeline"}
+{"ts": 1787934212.686, "level": "WARNING", "msg": "retry 1 for: What is a Pydantic BaseModel and when wo (simulated transient failure for: What is a Pydantic BaseModel and when wo)", "logger": "pipeline"}
+{"ts": 1787934213.134, "level": "WARNING", "msg": "retry 1 for: Why might an LLM produce confident but i (simulated transient failure for: Why might an LLM produce confident but i)", "logger": "pipeline"}
+{"ts": 1787934213.522, "level": "WARNING", "msg": "retry 1 for: What is retrieval-augmented generation i (simulated transient failure for: What is retrieval-augmented generation i)", "logger": "pipeline"}
+{"ts": 1787934214.703, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1787934214.929, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1787934215.174, "level": "WARNING", "msg": "retry 2 for: What is a Pydantic BaseModel and when wo (simulated transient failure for: What is a Pydantic BaseModel and when wo)", "logger": "pipeline"}
+{"ts": 1787934215.636, "level": "INFO", "msg": "asked: Why might an LLM produce confident but i", "logger": "pipeline"}
+{"ts": 1787934252.322, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1787934252.323, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1787934252.819, "level": "WARNING", "msg": "retry 1 for: What is a Pydantic BaseModel and when wo (simulated transient failure for: What is a Pydantic BaseModel and when wo)", "logger": "pipeline"}
+{"ts": 1787934253.161, "level": "WARNING", "msg": "retry 1 for: Why might an LLM produce confident but i (simulated transient failure for: Why might an LLM produce confident but i)", "logger": "pipeline"}
+{"ts": 1787934253.199, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1787934253.444, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1787934253.747, "level": "WARNING", "msg": "retry 1 for: What is retrieval-augmented generation i (simulated transient failure for: What is retrieval-augmented generation i)", "logger": "pipeline"}
+{"ts": 1787934254.963, "level": "WARNING", "msg": "retry 2 for: What is a Pydantic BaseModel and when wo (simulated transient failure for: What is a Pydantic BaseModel and when wo)", "logger": "pipeline"}
+{"ts": 1787934255.362, "level": "WARNING", "msg": "retry 2 for: Why might an LLM produce confident but i (simulated transient failure for: Why might an LLM produce confident but i)", "logger": "pipeline"}
+{"ts": 1787934255.454, "level": "WARNING", "msg": "retry 2 for: What is retrieval-augmented generation i (simulated transient failure for: What is retrieval-augmented generation i)", "logger": "pipeline"}
+{"ts": 1787934257.752, "level": "INFO", "msg": "asked: Why might an LLM produce confident but i", "logger": "pipeline"}
+{"ts": 1787934258.231, "level": "INFO", "msg": "asked: What is a Pydantic BaseModel and when wo", "logger": "pipeline"}
+{"ts": 1787934258.629, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1787934258.73, "level": "INFO", "msg": "batch 2: 5 questions", "logger": "pipeline"}
+{"ts": 1787934259.146, "level": "WARNING", "msg": "retry 1 for: When would you choose fine-tuning over R (simulated transient failure for: When would you choose fine-tuning over R)", "logger": "pipeline"}
+{"ts": 1787934259.288, "level": "WARNING", "msg": "retry 1 for: Give a one-line definition of an embeddi (simulated transient failure for: Give a one-line definition of an embeddi)", "logger": "pipeline"}
+{"ts": 1787934259.617, "level": "WARNING", "msg": "retry 1 for: List three common chunking strategies fo (simulated transient failure for: List three common chunking strategies fo)", "logger": "pipeline"}
+{"ts": 1787934259.747, "level": "INFO", "msg": "asked: Why do we use exponential backoff for re", "logger": "pipeline"}
+{"ts": 1787934260.145, "level": "INFO", "msg": "asked: What is the difference between a chatbot", "logger": "pipeline"}
+{"ts": 1787934260.542, "level": "WARNING", "msg": "retry 2 for: When would you choose fine-tuning over R (simulated transient failure for: When would you choose fine-tuning over R)", "logger": "pipeline"}
+{"ts": 1787934261.225, "level": "WARNING", "msg": "retry 2 for: Give a one-line definition of an embeddi (simulated transient failure for: Give a one-line definition of an embeddi)", "logger": "pipeline"}
+{"ts": 1787934261.569, "level": "WARNING", "msg": "retry 2 for: List three common chunking strategies fo (simulated transient failure for: List three common chunking strategies fo)", "logger": "pipeline"}
+{"ts": 1787934263.605, "level": "INFO", "msg": "asked: Give a one-line definition of an embeddi", "logger": "pipeline"}
+{"ts": 1787934263.693, "level": "INFO", "msg": "asked: When would you choose fine-tuning over R", "logger": "pipeline"}
+{"ts": 1787934263.915, "level": "INFO", "msg": "asked: List three common chunking strategies fo", "logger": "pipeline"}
+{"ts": 1787934264.015, "level": "INFO", "msg": "batch 3: 5 questions", "logger": "pipeline"}
+{"ts": 1787934264.4, "level": "WARNING", "msg": "retry 1 for: Why is structured logging useful for AI  (simulated transient failure for: Why is structured logging useful for AI )", "logger": "pipeline"}
+{"ts": 1787934264.532, "level": "WARNING", "msg": "retry 1 for: Name two trade-offs of long-context prom (simulated transient failure for: Name two trade-offs of long-context prom)", "logger": "pipeline"}
+{"ts": 1787934264.724, "level": "INFO", "msg": "asked: Explain what asyncio.gather does in one ", "logger": "pipeline"}
+{"ts": 1787934264.786, "level": "WARNING", "msg": "retry 1 for: What is the purpose of a .env file? (simulated transient failure for: What is the purpose of a .env file?)", "logger": "pipeline"}
+{"ts": 1787934265.502, "level": "WARNING", "msg": "retry 1 for: What is the role of a system prompt? (simulated transient failure for: What is the role of a system prompt?)", "logger": "pipeline"}
+{"ts": 1787934266.067, "level": "WARNING", "msg": "retry 2 for: Why is structured logging useful for AI  (simulated transient failure for: Why is structured logging useful for AI )", "logger": "pipeline"}
+{"ts": 1787934266.9, "level": "INFO", "msg": "asked: Name two trade-offs of long-context prom", "logger": "pipeline"}
+{"ts": 1787934267.218, "level": "INFO", "msg": "asked: What is the purpose of a .env file?", "logger": "pipeline"}
+{"ts": 1787934267.471, "level": "INFO", "msg": "asked: What is the role of a system prompt?", "logger": "pipeline"}
+{"ts": 1787934268.494, "level": "INFO", "msg": "asked: Why is structured logging useful for AI ", "logger": "pipeline"}
+{"ts": 1787934268.594, "level": "INFO", "msg": "batch 4: 5 questions", "logger": "pipeline"}
+{"ts": 1787934269.223, "level": "WARNING", "msg": "retry 1 for: What is the role of a retriever in a RAG (simulated transient failure for: What is the role of a retriever in a RAG)", "logger": "pipeline"}
+{"ts": 1787934269.378, "level": "WARNING", "msg": "retry 1 for: What does temperature do in an LLM call? (simulated transient failure for: What does temperature do in an LLM call?)", "logger": "pipeline"}
+{"ts": 1787934269.395, "level": "INFO", "msg": "asked: What is the difference between batching ", "logger": "pipeline"}
+{"ts": 1787934269.948, "level": "WARNING", "msg": "retry 1 for: What is the difference between sync and  (simulated transient failure for: What is the difference between sync and )", "logger": "pipeline"}
+{"ts": 1787934269.987, "level": "INFO", "msg": "asked: Give one example of when NOT to use an L", "logger": "pipeline"}
+{"ts": 1787934271.378, "level": "INFO", "msg": "asked: What does temperature do in an LLM call?", "logger": "pipeline"}
+{"ts": 1787934271.581, "level": "INFO", "msg": "asked: What is the difference between sync and ", "logger": "pipeline"}
+{"ts": 1787934271.646, "level": "INFO", "msg": "asked: What is the role of a retriever in a RAG", "logger": "pipeline"}
+{"ts": 1787934271.746, "level": "INFO", "msg": "summary: {\"started_at\":1787934252.3224924,\"elapsed_seconds\":19.423867225646973,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":20,\"total_cost_usd\":0.0020000000000000005,\"fail_rate\":0.3,\"use_fake\":true}", "logger": "pipeline"}
+{"ts": 1787935233.635, "level": "INFO", "msg": "loaded 3 questions", "logger": "pipeline"}
+{"ts": 1787935233.636, "level": "INFO", "msg": "batch 1: 3 questions", "logger": "pipeline"}
+{"ts": 1787935235.021, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1787935237.909, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1787935238.236, "level": "INFO", "msg": "asked: Why might an LLM produce confident but i", "logger": "pipeline"}
+{"ts": 1787935238.337, "level": "INFO", "msg": "summary: {\"started_at\":1787935233.6353521,\"elapsed_seconds\":4.701254367828369,\"n_questions\":3,\"n_succeeded\":3,\"n_retries_total\":0,\"total_cost_usd\":0.00030000000000000003,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1787935444.933, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1787935444.934, "level": "INFO", "msg": "batch 1: 5 questions", "logger": "pipeline"}
+{"ts": 1787935447.112, "level": "INFO", "msg": "asked: What is retrieval-augmented generation i", "logger": "pipeline"}
+{"ts": 1787935448.615, "level": "INFO", "msg": "asked: Name three real-world uses of vector dat", "logger": "pipeline"}
+{"ts": 1787935449.137, "level": "INFO", "msg": "asked: Why might an LLM produce confident but i", "logger": "pipeline"}
+{"ts": 1787935449.917, "level": "INFO", "msg": "asked: Explain async and await in plain languag", "logger": "pipeline"}
+{"ts": 1787935451.988, "level": "INFO", "msg": "asked: What is a Pydantic BaseModel and when wo", "logger": "pipeline"}
+{"ts": 1787935452.088, "level": "INFO", "msg": "batch 2: 5 questions", "logger": "pipeline"}
+{"ts": 1787935453.416, "level": "INFO", "msg": "asked: Give a one-line definition of an embeddi", "logger": "pipeline"}
+{"ts": 1787935454.443, "level": "INFO", "msg": "asked: List three common chunking strategies fo", "logger": "pipeline"}
+{"ts": 1787935456.287, "level": "INFO", "msg": "asked: Why do we use exponential backoff for re", "logger": "pipeline"}
+{"ts": 1787935456.438, "level": "INFO", "msg": "asked: What is the difference between a chatbot", "logger": "pipeline"}
+{"ts": 1787935458.094, "level": "INFO", "msg": "asked: When would you choose fine-tuning over R", "logger": "pipeline"}
+{"ts": 1787935458.194, "level": "INFO", "msg": "batch 3: 5 questions", "logger": "pipeline"}
+{"ts": 1787935459.673, "level": "INFO", "msg": "asked: Explain what asyncio.gather does in one ", "logger": "pipeline"}
+{"ts": 1787935461.059, "level": "INFO", "msg": "asked: Name two trade-offs of long-context prom", "logger": "pipeline"}
+{"ts": 1787935461.129, "level": "INFO", "msg": "asked: What is the purpose of a .env file?", "logger": "pipeline"}
+{"ts": 1787935461.539, "level": "INFO", "msg": "asked: What is the role of a system prompt?", "logger": "pipeline"}
+{"ts": 1787935463.461, "level": "INFO", "msg": "asked: Why is structured logging useful for AI ", "logger": "pipeline"}
+{"ts": 1787935463.561, "level": "INFO", "msg": "batch 4: 5 questions", "logger": "pipeline"}
+{"ts": 1787935464.967, "level": "INFO", "msg": "asked: Give one example of when NOT to use an L", "logger": "pipeline"}
+{"ts": 1787935466.396, "level": "INFO", "msg": "asked: What does temperature do in an LLM call?", "logger": "pipeline"}
+{"ts": 1787935467.538, "level": "INFO", "msg": "asked: What is the role of a retriever in a RAG", "logger": "pipeline"}
+{"ts": 1787935468.175, "level": "INFO", "msg": "asked: What is the difference between batching ", "logger": "pipeline"}
+{"ts": 1787935472.194, "level": "INFO", "msg": "asked: What is the difference between sync and ", "logger": "pipeline"}
+{"ts": 1787935472.295, "level": "INFO", "msg": "summary: {\"started_at\":1787935444.9335372,\"elapsed_seconds\":27.361228466033936,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.0020000000000000005,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
