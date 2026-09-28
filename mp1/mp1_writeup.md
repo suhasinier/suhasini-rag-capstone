@@ -2,31 +2,78 @@
 
 ## 1. Which strategy performed best?
 
-In this experiment, few-shot prompting had the highest mean accuracy, with a score of 2.8 out of 3. It also had a 100% parse rate. Structured and zero-shot prompting both had an accuracy of 2.6 out of 3, while CoT had 0 accuracy and a 0% parse rate.
-
-Few-shot and zero-shot had the same LLM judge score of 3.3, so the main difference I observed was in the accuracy score.
+* **Few-shot and structured prompting** had the highest mean accuracy: **2.8 out of 3**.
+* **Zero-shot:** 2.7 out of 3.
+* **CoT:** 2.6 out of 3.
+* All four strategies achieved a **100% parse success rate**.
+* Few-shot and structured had the highest **LLM-as-a-Judge score: 3.5/4**.
+* Structured had a total cost of about **$0.0004** and a median latency of **1.4496 seconds**.
+* Few-shot cost about **$0.0006**.
+* CoT had the highest median latency at **2.5621 seconds**.
+* Therefore, the experiment did not show one strategy winning every dimension. **Few-shot and structured performed best on accuracy, while structured had the lower cost with similar latency.**
 
 ## 2. What surprised me?
 
-The most surprising result was the CoT strategy. I expected asking the model to think step by step might help with the extraction task. Instead, all 10 CoT responses failed to parse in my experiment.
+* The most important finding was the difference between **"no experience required"** and **"experience not stated."**
+* **J05:** The posting says *"no prior experience required."*
 
-I checked the CoT results separately in the notebook using:
+  * Golden answer: **0 years**
+  * All four strategies returned **null**.
+  * This was a genuine extraction/interpretation failure.
+* **J10:** The posting does not give a specific years requirement.
 
-```python
-cot_results = df[df['strategy'] == 'cot']
+  * Golden answer: **null**
+  * All four strategies correctly returned **null**.
+  * This shows that the models could handle genuinely missing information correctly.
+* **J09:** The posting says *"three to five years."*
 
-cot_results[['snippet_id', 'raw_response', 'parsed',
-             'accuracy', 'parse_success']]
-```
+  * The project rule is to use the **minimum value: 3**.
+  * Structured returned **3** correctly.
+  * Zero-shot, few-shot and CoT returned **null**.
+* I also found a **normalisation issue** in J02 and J08:
 
-For all 10 snippets, parsed was None, accuracy was 0, and parse_success was False. This resulted in a 0% parse rate and 0.0 mean accuracy for CoT.
+  * The model returned **"Northwind Ltd."** instead of **"Northwind Ltd"**.
+  * It also returned **"Wonka Confectionery Ltd."** instead of **"Wonka Confectionery Ltd"**.
+  * The information was essentially correct, but our strict string comparison treated the punctuation difference as an error.
+* CoT was also slower:
 
-This made me realize that for a task requiring a strict JSON output, adding step-by-step reasoning can sometimes cause problems with the required output format.
+  * **CoT:** 2.5621 seconds median latency.
+  * Other strategies: approximately **1.45–1.49 seconds**.
+* These results showed me that prompt strategy affects not only accuracy, but also **handling of edge cases, output consistency, cost and latency**.
 
 ## 3. Which strategy would I use for my capstone?
 
-For my Enterprise Knowledge Assistant (EKA), I would start with few-shot prompting. In this experiment, few-shot gave the highest mean accuracy of 2.8 out of 3 and a 100% parse rate. I would then test it with some representative questions from my capstone before making a final decision.
+* For my **AI-powered CBSE/NCERT curriculum and education-framework assistant**, I would start with the **structured approach**.
+* My capstone needs:
+
+  * Clear and consistent outputs.
+  * Answers grounded in the available documents.
+  * Minimal guessing when information is not available.
+  * Reliable extraction of information from source documents.
+* The structured strategy achieved:
+
+  * **2.8/3 mean accuracy**
+  * **100% parse success**
+  * **3.5/4 LLM-judge score**
+  * About **$0.0004 total cost**
+  * **1.4496 seconds median latency**
+* I would still test it with representative questions from my actual capstone before treating it as the final prompting strategy.
 
 ## 4. What would I try next?
 
-If I had another day, I would test more examples and try improving the CoT prompt so that the reasoning does not interfere with the required JSON output. I would also compare the revised prompt with the few-shot prompt on the additional examples to see whether the results remain consistent.
+* Test the prompts on a **larger set of examples**.
+* Include more edge cases such as:
+
+  * Information that is completely missing.
+  * Explicitly stated zero values.
+  * Ranges such as **3–5 years**.
+  * Different ways of expressing the same information.
+* Improve the **normalisation/scoring rules** so harmless punctuation differences do not reduce the accuracy score.
+* Add an explicit instruction for cases such as:
+
+  * **"No experience required" → 0**
+  * **"Experience not stated" → null**
+  * **"3–5 years" → 3**
+* Test a structured prompt that explicitly says **not to infer information that is not supported by the source documents**.
+* Compare the revised structured prompt with the few-shot approach on additional examples.
+* Use the additional results to check whether the findings from this 10-job experiment remain consistent in the actual education domain.
