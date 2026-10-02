@@ -205,3 +205,14 @@ if __name__ == "__main__":
         f"wrote {len(answers)} answers to "
         f"{settings.results_json} in {elapsed:.2f}s"
     )
+    print(f"total cost: ${summary.total_cost_usd:.4f}")
+
+from .store import connect, write_run, write_answers
+
+with connect(settings.results_db) as con:
+    run_id = write_run(con, summary)
+    n = write_answers(con, run_id, answers)
+
+log.info(
+    f"persisted run {run_id} with {n} answers to {settings.results_db}"
+)
