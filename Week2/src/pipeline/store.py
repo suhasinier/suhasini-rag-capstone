@@ -1,10 +1,14 @@
+from __future__ import annotations
+
 import sqlite3
 import time
 from pathlib import Path
-from typing import Iterable
+from typing import TYPE_CHECKING, Iterable
 
-from .pipeline import Answer
 from .settings import RunSummary
+
+if TYPE_CHECKING:
+    from .pipeline import Answer
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS runs (
