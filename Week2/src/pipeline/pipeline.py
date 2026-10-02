@@ -140,6 +140,19 @@ async def run_batch(
     tasks = [ask_llm_with_retry(q, fail_rate=fail_rate) for q in questions]
     return await asyncio.gather(*tasks)
 
+
+# Assignment Run Batch Stream — (asyncio.as_completed)
+
+async def run_batch_stream(questions: list[Question], fail_rate: float = 0.0) -> list[Answer]:
+    tasks = [ask_llm_with_retry(q, fail_rate=fail_rate) for q in questions]
+    results: list[Answer] = []
+    for coro in asyncio.as_completed(tasks):
+        ans = await coro
+        print(f"  ✓ {ans.text[:60]}...")
+        results.append(ans)
+    return results
+
+
 async def run_in_batches(
     questions: list[Question], batch_size: int = 5, fail_rate: float = 0.0
 ) -> list[Answer]:
@@ -162,6 +175,7 @@ async def run_in_batches(
 # ─────────────────────────────────────────────────────────────────────────────
 # Entrypoint — replaced in Step 3a (Settings) and again in Step 3c (CSV + batched)
 # ─────────────────────────────────────────────────────────────────────────────
+
 if __name__ == "__main__":
     settings = Settings()
 
@@ -216,3 +230,26 @@ with connect(settings.results_db) as con:
 log.info(
     f"persisted run {run_id} with {n} answers to {settings.results_db}"
 )
+
+# Assignment
+
+# Repalcing the above lab activity main program with the below main program for the assignment activity
+# It is commented now. Because the assingment was tested withthe below code and after successful execution it is commented
+"""
+
+if __name__ == "__main__":
+    import sys
+    fail_rate = float(sys.argv[1]) if len(sys.argv) > 1 else 0.0
+
+    sample = [Question(text=t) for t in [
+        "What is RAG in one sentence?",
+        "Name three uses of vector databases.",
+        "Why might an LLM hallucinate?",
+        "Explain async and await in plain language.",
+        "What is the difference between a chatbot and an agent?",
+    ]]
+
+    print(f"\nrun_batch_stream — fail_rate={fail_rate}")
+    answers = asyncio.run(run_batch_stream(sample, fail_rate=fail_rate))
+    print(f"\nreturned {len(answers)} answers")
+"""
