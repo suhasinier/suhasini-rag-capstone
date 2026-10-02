@@ -75,17 +75,6 @@ def summarise_run(
         fail_rate=fail_rate,
         use_fake=use_fake,
     )
-# ─────────────────────────────────────────────────────────────────────────────
-# Step 5 (sub-step 2e) — structured (JSON) logging
-#
-# 2e: Replace this commented block with:
-#   - A `JsonFormatter(logging.Formatter)` class whose `format(record)` returns
-#     `json.dumps({"ts": ..., "level": ..., "msg": ...})`
-#   - A module-level `log = logging.getLogger("pipeline")` + setLevel(INFO)
-#   - A StreamHandler attached to that logger, using JsonFormatter()
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 2b — single LLM call
@@ -221,15 +210,15 @@ if __name__ == "__main__":
     )
     print(f"total cost: ${summary.total_cost_usd:.4f}")
 
-from .store import connect, write_run, write_answers
+    from .store import connect, write_run, write_answers
 
-with connect(settings.results_db) as con:
-    run_id = write_run(con, summary)
-    n = write_answers(con, run_id, answers)
+    with connect(settings.results_db) as con:
+        run_id = write_run(con, summary)
+        n = write_answers(con, run_id, answers)
 
-log.info(
+    log.info(
     f"persisted run {run_id} with {n} answers to {settings.results_db}"
-)
+    )
 
 # Assignment
 
