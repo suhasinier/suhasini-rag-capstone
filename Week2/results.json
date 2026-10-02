@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "started_at": 1790935398.744738,
+    "elapsed_seconds": 5.987318277359009,
+    "n_questions": 20,
+    "n_succeeded": 20,
+    "n_retries_total": 0,
+    "total_cost_usd": 0.0020000000000000005,
+    "fail_rate": 0.0,
+    "use_fake": true
+  },
+  "answers": [
+    {
+      "question": "What is retrieval-augmented generation in one sentence?",
+      "text": "(simulated answer for: What is retrieval-augmented generation in one sentence?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Name three real-world uses of vector databases.",
+      "text": "Vector databases power semantic search, RAG context retrieval, and similarity-based recommendation systems.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why might an LLM produce confident but incorrect answers?",
+      "text": "(simulated answer for: Why might an LLM produce confident but incorrect answers?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is a Pydantic BaseModel and when would you use one?",
+      "text": "A Pydantic BaseModel validates types and constraints at construction \u2014 invalid data is caught at the door, not three function calls later.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Explain async and await in plain language.",
+      "text": "async and await are Python keywords for cooperative concurrency. `async def` creates a coroutine; `await` pauses it until another coroutine completes.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the difference between a chatbot and an agent?",
+      "text": "(simulated answer for: What is the difference between a chatbot and an agent?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "List three common chunking strategies for documents.",
+      "text": "Rate limiting caps how many requests a client can make per time window, protecting the API from overload and unfair use.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why do we use exponential backoff for retries?",
+      "text": "Exponential backoff waits 1, 2, 4, 8... seconds between retries \u2014 far gentler on a struggling API than constant-interval retry.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Give a one-line definition of an embedding.",
+      "text": "(simulated answer for: Give a one-line definition of an embedding....)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "When would you choose fine-tuning over RAG?",
+      "text": "RAG combines retrieval over a document corpus with an LLM, so answers are grounded in real sources rather than the model's training data alone.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the role of a system prompt?",
+      "text": "(simulated answer for: What is the role of a system prompt?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Explain what asyncio.gather does in one sentence.",
+      "text": "async and await are Python keywords for cooperative concurrency. `async def` creates a coroutine; `await` pauses it until another coroutine completes.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the purpose of a .env file?",
+      "text": "(simulated answer for: What is the purpose of a .env file?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why is structured logging useful for AI systems?",
+      "text": "(simulated answer for: Why is structured logging useful for AI systems?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Name two trade-offs of long-context prompting.",
+      "text": "(simulated answer for: Name two trade-offs of long-context prompting....)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the role of a retriever in a RAG pipeline?",
+      "text": "RAG combines retrieval over a document corpus with an LLM, so answers are grounded in real sources rather than the model's training data alone.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Give one example of when NOT to use an LLM.",
+      "text": "(simulated answer for: Give one example of when NOT to use an LLM....)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What does temperature do in an LLM call?",
+      "text": "(simulated answer for: What does temperature do in an LLM call?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the difference between sync and async I/O?",
+      "text": "async and await are Python keywords for cooperative concurrency. `async def` creates a coroutine; `await` pauses it until another coroutine completes.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the difference between batching and streaming?",
+      "text": "(simulated answer for: What is the difference between batching and streaming?...)",
+      "cost_usd": 0.0001,
+      "retries": 0
+    }
+  ]
+}
