@@ -6,6 +6,7 @@ Two models with different roles:
 """
 from __future__ import annotations
 from pathlib import Path
+import os
 
 from pydantic import BaseModel, Field
 
@@ -21,7 +22,8 @@ class Settings(BaseModel):
     model:         str   = "gpt-4o-mini"
     use_fake:      bool  = False
 
-    openai_api_key: str = "YOUR_API_KEY_HERE"
+    openai_api_key: str = os.getenv("OPENAI_API_KEY", "YOUR_API_KEY_HERE")
+
     max_retries: int = 2
     retry_delay_s: float = 1.0
 

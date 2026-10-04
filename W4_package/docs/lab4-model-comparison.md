@@ -8,11 +8,11 @@
 ```
 Model            n    Total $     Avg $/q     Time
 ---------------------------------------------------
-gpt-4o-mini     10    0.000765   0.000077    16.29s
-gpt-4o          10    0.015108   0.001511    18.69s
+gpt-4o-mini     10    0.000852   0.000085    20.65s
+gpt-4o          10    0.015007   0.001501    17.73s
 ```
 
-> gpt-4o cost 19.7 × more than gpt-4o-mini on the same questions.
+> gpt-4o cost 17.6 × more than gpt-4o-mini on the same questions.
 
 ## Two-paragraph eyeball reflection
 
@@ -22,7 +22,7 @@ Across the 10 questions, the two models produced broadly similar answers for man
 
 ### Paragraph 2 — your rough rule for when to reach for the bigger model
 
-Based on this small 10-question comparison, I would consider gpt-4o for questions where additional reasoning or detail is important and the extra cost can be justified. For straightforward conceptual questions, the two answers were often quite similar in the snippets inspected. The measured total cost was $0.000765 for gpt-4o-mini versus $0.015108 for gpt-4o, so the cost difference should be considered when choosing the model. The comparison provides evidence from these 10 questions, but it is not enough by itself to generalize to every workload.
+Based on this 10-question comparison, gpt-4o may be considered when additional reasoning or detail is important and the additional cost can be justified. For straightforward conceptual questions, the two models produced broadly similar answers in the questions examined. The measured total cost was $0.000852 for gpt-4o-mini versus $0.015007 for gpt-4o, making gpt-4o approximately 17.6 times more expensive in this run. Therefore, gpt-4o-mini can serve as the default for routine questions, while gpt-4o can be considered when the additional capability is worth the higher cost.
 
 ## Confidence calibration (optional)
 
