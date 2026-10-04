@@ -24,6 +24,8 @@ from src.pipeline.pipeline import ask_llm as _pipeline_ask_llm
 from src.pipeline.pipeline import Question as _PipelineQuestion
 
 
+
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s")
 log = logging.getLogger(__name__)
 
@@ -50,6 +52,16 @@ app = FastAPI(
     description="Wraps the W2 async pipeline. Contract locked in ADR 0002 (W3); internals upgraded W4+.",
     version="1.0.0",
 )
+
+# Assignment : Step 1
+
+request_counts: dict[str, int] = {}
+@app.middleware("http")
+async def count_requests(request, call_next):
+    path = request.url.path
+    request_counts[path] = request_counts.get(path, 0) + 1
+    response = await call_next(request)
+    return response
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -101,3 +113,9 @@ async def ask(q: Question):
         stream_answer(q.question),
         media_type="text/plain",
     )
+@app.get("/metrics")
+async def metrics():
+    return {
+        "endpoints": request_counts,
+        "total": sum(request_counts.values()),
+        }

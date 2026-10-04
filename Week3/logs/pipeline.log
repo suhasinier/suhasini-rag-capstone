@@ -125,3 +125,5 @@
 {"ts": 1791101489.915, "level": "INFO", "msg": "asked: How does the procurement approval proces", "logger": "pipeline"}
 {"ts": 1791101490.112, "level": "INFO", "msg": "asked: What is the leave policy?", "logger": "pipeline"}
 {"ts": 1791101491.071, "level": "INFO", "msg": "asked: How does the procurement approval proces", "logger": "pipeline"}
+{"ts": 1791109116.36, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1791109187.687, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
