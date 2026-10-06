@@ -20,6 +20,11 @@ from .settings import Settings
 
 logger = logging.getLogger(__name__)
 
+def _make_client(settings):
+    if settings.model.startswith("llama") or settings.model.startswith("ollama:"):
+        return AsyncOpenAI(base_url="http://localhost:11434/v1",api_key="ollama",)
+    return AsyncOpenAI(api_key=settings.openai_api_key)
+
 
 # ─── Tool schema for structured outputs ─────────────────────────────────────
 ANSWER_TOOL: dict = {
@@ -55,6 +60,35 @@ ANSWER_TOOL: dict = {
 }
 
 
+ANSWER_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "content": {
+            "type": "string",
+            "description": "The answer to the question.",
+        },
+        "confidence": {
+            "type": "number",
+            "description": "How confident the model is, from 0.0 to 1.0.",
+        },
+        "sources": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Identifiers of the retrieved chunks used.",
+        },
+    },
+    "required": ["content", "confidence", "sources"],
+    "additionalProperties": False,
+}
+
+RESPONSE_FORMAT = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "answer_question",
+        "schema": ANSWER_SCHEMA,
+        "strict": True,
+    },
+}
 # ─── Fake LLM (kept from W2 for tests) ──────────────────────────────────────
 async def fake_ask_llm(question: str) -> str:
     """Returns a canned answer with a small delay. Used by tests + offline runs."""
@@ -74,29 +108,55 @@ async def ask_llm(q: Question, settings: Settings | None = None) -> Answer:
         content = await fake_ask_llm(q.question)
         return Answer(content=content, cost_usd=0.0, retries=0)
 
-    client = AsyncOpenAI(api_key=settings.openai_api_key)
+    client = _make_client(settings)
+    is_local = (settings.model.startswith("llama") or settings.model.startswith("ollama:"))
     last_err: Exception | None = None
 
     for attempt in range(settings.max_retries + 1):
         try:
-            resp = await client.chat.completions.create(
-                model=settings.model,
-                messages=[{"role": "user", "content": q.question}],
-                tools=[ANSWER_TOOL],
-                tool_choice={
-                    "type": "function",
-                    "function": {"name": "answer_question"},
-                },
-            )
+            if is_local:
+                resp = await client.chat.completions.create(
+                    model=settings.model,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "Answer the question using the provided schema.",
+                            },
+                            {"role": "user", "content": q.question},
+                            ],
+                            response_format=RESPONSE_FORMAT,
 
-            # Parse the tool call's structured arguments.
-            tool_calls = resp.choices[0].message.tool_calls or []
-            if not tool_calls:
-                # Defensive — should not happen because tool_choice forces it,
-                # but if a provider misbehaves we want a clear error.
-                raise RuntimeError("LLM did not call the answer_question tool")
-            args_json = tool_calls[0].function.arguments
-            args = json.loads(args_json)
+                )
+            else:
+                resp = await client.chat.completions.create(
+                    model=settings.model,
+                    messages=[{"role": "user", "content": q.question}],
+                    tools=[ANSWER_TOOL],
+                    tool_choice={
+                        "type": "function",
+                        "function": {"name": "answer_question"},
+                    },
+                )
+    
+                     
+            
+            
+            
+            if is_local:
+                message = resp.choices[0].message
+
+                if getattr(message, "refusal", None):
+                    raise ValueError(f"Model refused: {message.refusal}")
+
+                args_json = message.content
+                args = json.loads(args_json)
+            else:
+                # Parse the tool call's structured arguments.
+                tool_calls = resp.choices[0].message.tool_calls or []
+                if not tool_calls:
+                    raise RuntimeError("LLM did not call the answer_question tool")
+                args_json = tool_calls[0].function.arguments
+                args = json.loads(args_json)
 
             # Compute real cost from usage.
             usage = resp.usage
@@ -106,9 +166,16 @@ async def ask_llm(q: Question, settings: Settings | None = None) -> Answer:
                 usage.completion_tokens if usage else 0,
             )
 
+            confidence = float(args["confidence"])
+            if confidence > 1:
+                confidence = confidence / 100
+            confidence = max(0.0, min(1.0, confidence))
+
+
+                        
             return Answer(
                 content=args["content"],
-                confidence=args["confidence"],
+                confidence=confidence,
                 sources=args.get("sources", []),
                 cost_usd=cost,
                 retries=attempt,
@@ -145,7 +212,7 @@ async def stream_answer(
             yield word + " "
         return
 
-    client = AsyncOpenAI(api_key=settings.openai_api_key)
+    client = _make_client(settings)
 
     stream = await client.chat.completions.create(
         model=settings.model,

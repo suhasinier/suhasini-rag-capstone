@@ -13,6 +13,7 @@ RATES: dict[str, tuple[float, float]] = {
     # Ollama models are free locally — keep them in the table so the same
     # compute_cost_usd() works for the take-home activity.
     "llama3.2:3b": (0.0, 0.0),
+    
 }
 
 
