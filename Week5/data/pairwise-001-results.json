@@ -1,0 +1,282 @@
+[
+  {
+    "id": "g001",
+    "question": "What is the purpose of a curriculum in school education?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate, grounded, and complete answers to the question about the purpose of a curriculum in school education. They both emphasize the structured framework of the curriculum, its role in meeting educational standards, and its importance in guiding educators. Additionally, both responses mention the curriculum's role in preparing students for future opportunities and fostering key skills. The clarity and format are also similar, making it difficult to distinguish one as better than the other. Therefore, it is a tie."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide concise and accurate descriptions of the purpose of a curriculum in school education. They mention the structured framework, guidance for educators, alignment with educational standards, and the development of student knowledge and skills. Both answers are grounded, complete, and clear, effectively covering the important aspects of the question. Neither candidate is meaningfully better than the other."
+    }
+  },
+  {
+    "id": "g002",
+    "question": "What are learning outcomes and why are they important?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and clear descriptions of what learning outcomes are, highlighting their role in setting expectations for learners and educators. They both emphasize the importance of alignment between teaching, assessment, and educational goals, contributing to effective curriculum development and program evaluation. While phrased differently, both answers cover the essential points with clarity, accuracy, and completeness, making them equally strong."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both candidates A and B provide accurate and grounded definitions of learning outcomes. They both explain their importance in providing clear goals and aligning educational activities, with Candidate A emphasizing the focus on necessary skills and knowledge, and Candidate B mentioning the role in evaluating educational programs. Each answer is clear and well-structured without any unsupported claims, and they cover the essential aspects of the question equally well. Thus, there is no significant difference between them to choose one over the other."
+    }
+  },
+  {
+    "id": "g003",
+    "question": "What is the role of assessment in school education?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "B",
+      "reasoning": "Candidate B provides a more comprehensive answer by not only addressing how assessments help in evaluating student learning and providing feedback, but also highlighting their role in guiding instructional practices, informing curriculum development, and educational policies. Candidate A focuses more on feedback and motivation without addressing the broader implications for curriculum and policy, making Candidate B's response more complete and accurate in capturing the multifaceted role of assessments in school education."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide accurate descriptions of the role of assessment in school education. Candidate A emphasizes assessment's role in evaluating learning, providing feedback, guiding instructional practices, and informing educational policies. Candidate B highlights feedback on learning, instructional strategies, motivation, and student ownership of learning. Both answers are grounded, complete, and clear, covering similar aspects effectively. Thus, neither candidate is meaningfully better than the other; they both provide a comprehensive understanding of the topic."
+    }
+  },
+  {
+    "id": "g004",
+    "question": "What does competency-based education focus on?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "B",
+      "reasoning": "Both candidates provide similar and accurate information about competency-based education, emphasizing the focus on students demonstrating mastery of specific skills or competencies and the benefit of allowing learners to progress at their own pace. However, Candidate B slightly edges out Candidate A by explicitly mentioning the 'development and assessment' of skills and the 'real-world applications' aspect, which adds to the completeness and depth of the response. Therefore, Candidate B provides a more comprehensive and rounded answer."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate, grounded, complete, and clear explanations of what competency-based education focuses on. They both emphasize the focus on skills and competencies rather than traditional metrics like time or course completion, and they mention the aspect of progressing at one's own pace. There are no significant differences between the two answers in terms of accuracy, groundedness, completeness, and clarity, making them equally good."
+    }
+  },
+  {
+    "id": "g005",
+    "question": "What is experiential learning?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate definitions of experiential learning, emphasizing learning through direct experience and reflection. They both mention the benefits of enhancing understanding and retention of knowledge, and apply the concept to educational and training settings. The answers are equally accurate, grounded, complete, and clear, making it difficult to distinguish a superior response based on the given rubric. Therefore, the result is a tie."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and grounded definitions of experiential learning. They both emphasize key aspects such as learning through direct experience, active participation, and reflection. Candidate A highlights specific settings where experiential learning is applied, such as internships and group projects, while Candidate B focuses on the skills fostered, such as critical thinking and problem solving. Both definitions are clear and well-structured, covering important aspects of the question effectively. Therefore, neither candidate is meaningfully better than the other."
+    }
+  },
+  {
+    "id": "g006",
+    "question": "What teaching approaches are recommended for effective student learning?",
+    "winner": "A",
+    "position_bias": false,
+    "forward": {
+      "winner": "A",
+      "reasoning": "Candidate A provides a comprehensive answer that outlines several effective teaching approaches for student learning, including differentiated instruction, active learning, formative assessment, collaborative learning, and the integration of technology. This demonstrates accuracy, completeness, and clarity, directly addressing the question. Candidate B, on the other hand, does not provide any specific teaching approaches and merely suggests referring to external sources for more information, which lacks completeness and does not address the question. Therefore, Candidate A is the better choice."
+    },
+    "reverse": {
+      "winner": "B",
+      "reasoning": "Candidate B provides a detailed list of teaching approaches for effective student learning, such as differentiated instruction, active learning, formative assessment, collaborative learning, and the integration of technology. These strategies are relevant and commonly recognized in educational literature. On the other hand, Candidate A fails to provide any specific teaching approaches and suggests referring to external sources, which makes the response less informative and useful. Therefore, Candidate B prevails in accuracy, completeness, and clarity."
+    }
+  },
+  {
+    "id": "g007",
+    "question": "What is meant by inclusive education?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide accurate and complete descriptions of inclusive education. Candidate A highlights the adaptation of learning environments and curriculum to meet diverse needs, while Candidate B emphasizes equal access and support within a unified environment. Both mention the supportive and inclusive nature of the approach. Neither answer includes unsupported claims and both are clear and well-structured. Thus, neither answer is meaningfully better than the other."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide a clear and accurate definition of inclusive education, highlighting its key aspects of ensuring all students have access to education alongside their peers and emphasizing the support and adaptation required to meet diverse needs. Candidate A focuses more on the social aspect by mentioning acceptance and respect, while Candidate B highlights adaptations in teaching and curriculum. Both are grounded in the concept of inclusive education and cover the important points equally well. Therefore, neither candidate is meaningfully better than the other."
+    }
+  },
+  {
+    "id": "g008",
+    "question": "Why is foundational learning important in school education?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "B",
+      "reasoning": "Both candidates highlight the importance of foundational learning in building essential skills for future education and success. However, Candidate B provides a more comprehensive answer by expanding on the impact of foundational learning on cognitive development, social skills, and emotional growth. This makes Candidate B's response more complete as it covers a broader range of important aspects related to foundational learning in school education. In terms of accuracy and groundedness, both candidates perform similarly, but B's greater completeness gives it the edge."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide equally strong answers regarding the importance of foundational learning in school education. They both emphasize foundational learning as building essential skills and knowledge necessary for future success. Candidate A highlights aspects like cognitive development and emotional growth, while Candidate B focuses on core competencies and critical thinking abilities. Both answers are accurate, grounded in the context, and cover the question's important aspects comprehensively. The clarity and structure of both responses are comparable, leading to a tie."
+    }
+  },
+  {
+    "id": "g009",
+    "question": "What is the purpose of an education framework?",
+    "winner": "A",
+    "position_bias": false,
+    "forward": {
+      "winner": "A",
+      "reasoning": "Candidate A is better as it provides a more comprehensive explanation of the purpose of an education framework. It not only mentions the alignment of curriculum, assessments, and instructional methods but also highlights the importance of defining educational goals and measuring outcomes effectively, which adds to the completeness of the answer. Candidate B provides a general outline but lacks the specific details about curriculum alignment and measuring educational outcomes, making Candidate A more complete and informative."
+    },
+    "reverse": {
+      "winner": "B",
+      "reasoning": "Both candidates correctly outline the purpose of an education framework as providing structure and goals for educational practices. However, Candidate B gives a more detailed explanation by mentioning the alignment of curriculum, assessments, and instructional methods. B also highlights how the framework guides teachers in lesson planning and measures educational outcomes, which makes it more comprehensive. Therefore, Candidate B provides a slightly more complete and well-rounded answer."
+    }
+  },
+  {
+    "id": "g010",
+    "question": "What is the role of a teacher in supporting student learning?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "B",
+      "reasoning": "Candidate B provides a more comprehensive answer by including the role of fostering social-emotional development and motivating student engagement, which are important aspects of a teacher's role that Candidate A does not mention. Both candidates address facilitating knowledge acquisition, creating a supportive learning environment, and promoting critical thinking and problem-solving, but Candidate B offers a broader view of the teacher's responsibilities."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and grounded answers that are based on common understanding of a teacher's role. Candidate A emphasizes the teacher's role in assessing students' needs and encouraging social-emotional development, while Candidate B highlights tailoring teaching strategies to meet diverse needs.\n\nBoth answers cover essential aspects such as facilitating knowledge acquisition, creating a supportive environment, and fostering critical thinking. A slight difference lies in A's focus on motivational aspects and B's focus on understanding complex concepts, but these elements balance each other in overall completeness.\n\nIn terms of clarity and format, both answers are clear, direct, and well-structured, making neither distinctly better than the other."
+    }
+  },
+  {
+    "id": "g011",
+    "question": "What role should students play in the learning process?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both candidates A and B emphasize the active role students should play in the learning process, including engaging with material, participating in discussions, collaborating with peers, and taking responsibility for their education. Candidate A mentions setting goals and seeking help, while Candidate B focuses on asking questions and applying knowledge practically. Both answers are accurate, grounded in the context, and cover the important aspects of the question. They both also present the information clearly and directly. Therefore, neither candidate is meaningfully better than the other."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide similar answers to the question about the role students should play in the learning process. They both emphasize the importance of active engagement, participation in discussions, collaboration with peers, and taking responsibility for their own education. Candidate B adds the aspect of setting goals, while Candidate A explicitly mentions applying knowledge in practical situations and asking questions for clarification. Overall, both answers are accurate, grounded, complete, and clear, hence resulting in a tie."
+    }
+  },
+  {
+    "id": "g012",
+    "question": "How can formative assessment support learning?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and grounded explanations of how formative assessments support learning. They both highlight the role of formative assessments in providing feedback, identifying strengths and weaknesses, promoting self-reflection, and allowing for adjustments in teaching strategies. Additionally, both answers mention the encouragement of student participation and personalized learning experiences, albeit with slightly different wording. Overall, both candidates offer clear, complete, and well-structured responses, making them equally good answers."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide accurate and grounded explanations of how formative assessment supports learning. They mention key elements such as ongoing feedback, identification of strengths and weaknesses, and adjustments in teaching strategies. Both answers also emphasize self-reflection and personalization of learning. In terms of clarity and completeness, both candidates are equally effective. Therefore, neither is meaningfully better than the other."
+    }
+  },
+  {
+    "id": "g013",
+    "question": "How should teachers use the curriculum when planning lessons?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide similar responses in terms of accuracy, groundedness, completeness, and clarity. They both emphasize using the curriculum as a guiding framework, ensuring alignment with standards, addressing diverse learning needs, and implementing assessments to monitor student progress. Neither candidate provides additional information that significantly outperforms the other, resulting in a tie."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and grounded answers that address how teachers should use the curriculum in lesson planning. Each emphasizes the importance of aligning lesson objectives with curriculum goals and catering to diverse student needs. Additionally, both mention the integration of assessments to measure student understanding. The answers are equally complete, clear, and well-structured, and neither provides unsupported claims. Therefore, neither candidate is meaningfully better than the other."
+    }
+  },
+  {
+    "id": "g014",
+    "question": "Why are education policies and frameworks important for schools?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide well-rounded answers to the question of why education policies and frameworks are important for schools. They both highlight similar key points such as the importance of structured approaches, alignment of resources, and ensuring quality and equity in education. Each answer is clear, accurate, and well-structured, addressing the important aspects of the question. Neither candidate contains unsupported claims or lacks in completeness. As such, both answers are equally good based on accuracy, groundedness, completeness, and clarity."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and grounded explanations of why education policies and frameworks are important for schools. They both cover key points such as providing a structured approach, ensuring equity, guiding curriculum development, and enhancing accountability. The answers are clear, well-structured, and complete in addressing the question. As there is no significant difference in the quality of the answers, the result is a tie."
+    }
+  },
+  {
+    "id": "g015",
+    "question": "How should a teacher connect learning outcomes with assessment when planning a lesson?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide similar guidance on how a teacher should connect learning outcomes with assessments. They both emphasize the importance of clearly defining learning outcomes and designing assessments that directly measure these outcomes. The key points, such as alignment of assessments with learning objectives and the utility of feedback, are covered by both candidates. There are no significant differences in accuracy, groundedness, completeness, or clarity between the two answers, making it a tie."
+    },
+    "reverse": {
+      "winner": "B",
+      "reasoning": "Both candidates provide similar approaches by emphasizing the importance of clearly defining learning outcomes and aligning assessments with those outcomes. However, Candidate B adds an additional layer of clarity by recommending the use of SMART criteria (Specific, Measurable, Achievable, Relevant, and Time-bound) for defining learning outcomes. This makes Candidate B's response more complete and precise in terms of how teachers should connect learning outcomes with assessment when planning a lesson. Candidate A also offers valid points, but lacks the specificity provided by the SMART framework."
+    }
+  },
+  {
+    "id": "g016",
+    "question": "If a student has difficulty achieving a particular learning outcome, how should the teacher respond while planning instruction and assessment?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B address the question with a focus on adapting instructional strategies to aid a student struggling with a learning outcome. \n\n- **Accuracy**: Both responses accurately discuss differentiating instruction and the use of continuous assessment.\n- **Groundedness**: Both stay grounded in the context of instructional planning and assessment modification.\n- **Completeness**: Both candidates cover the key points of differentiating instruction, providing additional support, and using assessments to monitor and adjust teaching strategies. \n- **Clarity and Format**: Both answers are clear and structured, with Candidate A slightly more detail-focused but not significantly better in providing clear instructions.\n\nOverall, neither candidate is meaningfully better as both provide a similarly useful and accurate response to the question."
+    },
+    "reverse": {
+      "winner": "B",
+      "reasoning": "Both candidate answers provide approaches for addressing a student's difficulty with a learning outcome by suggesting differentiated instruction and continuous assessment. However, Candidate B offers a more complete answer by including the step of identifying root causes of the difficulty through assessments or observations. This additional step provides a broader context for adapting instruction, making Candidate B's response more comprehensive and grounded. Both answers are clear and structured well, but B's inclusion of root cause analysis enhances its accuracy and completeness."
+    }
+  },
+  {
+    "id": "g017",
+    "question": "How can experiential learning be used while still ensuring that the required learning outcomes are assessed?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide a thorough and accurate explanation of how experiential learning can be used while ensuring required learning outcomes are assessed. Candidate A emphasizes reflective assessments, clear learning objectives, and various assessment forms like presentations, reports, or portfolios. Candidate B also highlights reflective practices, the use of rubrics, and additional methods such as regular feedback sessions and peer assessments. Both answers are grounded in the context and cover the key points with clarity and completeness. Therefore, neither candidate is meaningfully better."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B address the question by suggesting methods to integrate experiential learning with assessment. Candidate A mentions reflective practices, rubrics, feedback, and peer assessments, while Candidate B suggests reflective assessments and aligning them with theoretical concepts through presentations, reports, or portfolios. Both responses emphasize clear learning objectives and aligned assessment criteria. The answers are equally accurate, grounded, complete, and clear."
+    }
+  },
+  {
+    "id": "g018",
+    "question": "If a curriculum recommendation emphasizes learner-centred teaching, what should this mean for classroom practice and assessment?",
+    "winner": "tie",
+    "position_bias": false,
+    "forward": {
+      "winner": "tie",
+      "reasoning": "Both candidates address the implications of a learner-centred approach on classroom practice and assessment effectively. Candidate A focuses on students actively engaging in their own learning process, promoting exploration, collaboration, and critical thinking. It also emphasizes diverse evaluation methods that assess skills like problem-solving, creativity, and self-reflection. Candidate B highlights student engagement, active participation, and individualized learning approaches, with assessments that are formative and provide feedback. Both answers cover the necessary aspects of learner-centred teaching: engagement, diverse assessment methods, and aligning these with learner goals. Therefore, the responses are equally complete, accurate, and grounded, making this a tie."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both candidates provide accurate and grounded explanations of what learner-centered teaching should imply for classroom practice and assessment. Candidate A focuses on student engagement, active participation, individualized learning, and the use of formative assessments. Candidate B emphasizes active engagement in the learning process, student ownership, and diverse evaluation methods. Both answers cover the important aspects of the question and are clear in their explanations. The differences in content are minor and do not significantly impact the overall quality of the responses. Thus, both candidates are equally good."
+    }
+  },
+  {
+    "id": "g019",
+    "question": "What is the best cryptocurrency investment strategy for a school teacher?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "B",
+      "reasoning": "Candidate B is better because it acknowledges the lack of specific context for an investment strategy but still provides actionable advice. The answer focuses on thorough research, risk management (emphasizing only investing what one can afford to lose), and the prudence of consulting a financial advisor, which are grounded and practical suggestions for someone like a school teacher. \n\nCandidate A assumes certain details, like prioritizing the use of well-established coins and tracking market trends, but does not suggest consulting a financial advisor, which could be crucial for a conservative investor like a school teacher. Candidate B's advice is more grounded, cautious, and appropriately aligned with the needs of a school teacher without making unsupported claims about specific cryptocurrencies."
+    },
+    "reverse": {
+      "winner": "B",
+      "reasoning": "Candidate B provides a more detailed and grounded strategy specifically tailored for a school teacher by suggesting a conservative approach, diversification, and focusing on well-established coins like Bitcoin and Ethereum. Candidate A offers generic advice without specific grounding in the context of being a school teacher. While both candidates offer safe investment principles, Candidate B addresses the question more directly with relevant details like allocating a small percentage of income and staying informed about market trends, which enhances completeness and clarity."
+    }
+  },
+  {
+    "id": "g020",
+    "question": "Which visa should a teacher apply for when travelling abroad for a personal holiday?",
+    "winner": "ambiguous",
+    "position_bias": true,
+    "forward": {
+      "winner": "B",
+      "reasoning": "Both candidates correctly identify the tourist visa as the appropriate option for a teacher traveling for a personal holiday. However, Candidate B provides a more comprehensive answer by acknowledging that visa requirements can vary depending on the destination country and advises checking specific regulations, adding a crucial layer of completeness. Candidate A lacks this additional context and thereby misses offering comprehensive guidance. Additionally, both answers are clear and well-structured, with Candidate B slightly edging out in completeness."
+    },
+    "reverse": {
+      "winner": "tie",
+      "reasoning": "Both Candidate A and Candidate B provide accurate and clear information, stating that a teacher should apply for a tourist visa when traveling abroad for a personal holiday. They both mention that this visa is for leisure and tourism purposes. Candidate A adds a note on checking specific visa requirements for the destination country, which enhances its completeness slightly. However, this does not make one answer significantly better than the other overall, as Candidate B also clearly explains the purpose of the visa. Therefore, it's a tie."
+    }
+  }
+]

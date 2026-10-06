@@ -1,0 +1,102 @@
+[
+  {
+    "id": "g001",
+    "question": "What is the purpose of a curriculum in school education?",
+    "answer": "The purpose of a curriculum in school education is to provide a structured framework for what is taught, ensuring that students achieve specific learning objectives and competencies. It serves as a guide for educators to deliver instruction effectively while also aligning with educational standards and assessment strategies. Additionally, a well-designed curriculum promotes a cohesive learning experience that addresses the diverse needs of students and prepares them for future educational and career opportunities."
+  },
+  {
+    "id": "g002",
+    "question": "What are learning outcomes and why are they important?",
+    "answer": "Learning outcomes are specific statements that describe what learners are expected to know, understand, or be able to do at the end of a lesson or a course. They are important because they provide clear expectations for both instructors and students, ensuring that teaching and assessment are aligned with the intended goals. Additionally, they help in evaluating the effectiveness of educational programs and guide the development of curricula."
+  },
+  {
+    "id": "g003",
+    "question": "What is the role of assessment in school education?",
+    "answer": "Assessment plays a crucial role in school education by providing feedback on student learning and progress. It helps educators identify areas where students may need additional support and inform instructional strategies. Additionally, assessments can motivate students by clarifying learning objectives and allowing them to take ownership of their learning process."
+  },
+  {
+    "id": "g004",
+    "question": "What does competency-based education focus on?",
+    "answer": "Competency-based education focuses on students demonstrating mastery of specific skills or competencies rather than simply completing a certain number of instructional hours or courses. This approach allows learners to progress at their own pace, advancing as they achieve proficiency in the required skills, which can enhance their understanding and application of the material."
+  },
+  {
+    "id": "g005",
+    "question": "What is experiential learning?",
+    "answer": "Experiential learning is a process through which individuals learn by engaging in direct experience and reflecting on that experience. It emphasizes active participation, where learners immerse themselves in practical activities, followed by reflection and analysis, facilitating deeper understanding and retention of knowledge. This approach is commonly applied in educational and training settings to foster critical thinking and problem-solving skills."
+  },
+  {
+    "id": "g006",
+    "question": "What teaching approaches are recommended for effective student learning?",
+    "answer": "Effective student learning is often achieved through a variety of teaching approaches, including differentiated instruction, which tailors lessons to meet diverse student needs, and active learning, which encourages student engagement through hands-on activities. Additionally, formative assessment techniques help educators monitor student progress and adjust instruction accordingly. Collaborative learning, where students work together in groups, can also enhance understanding and retention of material. Lastly, integrating technology in teaching can provide personalized learning experiences and greater access to resources."
+  },
+  {
+    "id": "g007",
+    "question": "What is meant by inclusive education?",
+    "answer": "Inclusive education refers to an educational approach that ensures all students, regardless of their background, abilities, or disabilities, have access to quality education alongside their peers in a supportive environment. It emphasizes the need to adapt the learning environment, teaching methods, and curriculum to meet the diverse needs of all students, fostering a sense of belonging and participation in the educational process."
+  },
+  {
+    "id": "g008",
+    "question": "Why is foundational learning important in school education?",
+    "answer": "Foundational learning is crucial in school education as it provides essential skills and knowledge that serve as the building blocks for future learning. It ensures that students develop core competencies in reading, writing, and mathematics, which are vital for success in more advanced subjects and real-world situations. Additionally, strong foundational learning fosters critical thinking and problem-solving abilities, enabling students to navigate their educational journey effectively and adapt to various challenges."
+  },
+  {
+    "id": "g009",
+    "question": "What is the purpose of an education framework?",
+    "answer": "The purpose of an education framework is to provide a structured approach to teaching and learning, ensuring that educational goals are clearly defined and met. It helps to align curriculum, assessments, and instructional methods, facilitating a coherent educational experience for students. Additionally, an education framework can guide teachers in planning lessons and help institutions measure educational outcomes effectively."
+  },
+  {
+    "id": "g010",
+    "question": "What is the role of a teacher in supporting student learning?",
+    "answer": "The role of a teacher in supporting student learning is multifaceted. Teachers facilitate knowledge acquisition by providing information and guiding students in understanding complex concepts. They also create a supportive learning environment, tailoring their teaching strategies to meet diverse student needs and fostering critical thinking and problem-solving skills."
+  },
+  {
+    "id": "g011",
+    "question": "What role should students play in the learning process?",
+    "answer": "Students should take an active role in their learning process by engaging with the material, participating in discussions, and collaborating with peers. This involvement fosters critical thinking, enhances understanding, and encourages a deeper connection to the subject matter. Additionally, students should embrace responsibility for their own learning by setting goals and seeking help when needed."
+  },
+  {
+    "id": "g012",
+    "question": "How can formative assessment support learning?",
+    "answer": "Formative assessment supports learning by providing ongoing feedback that helps both students and educators identify strengths and areas for improvement. This type of assessment encourages active participation and self-reflection, allowing learners to take ownership of their educational journey. Additionally, it facilitates adjustments in teaching strategies to better meet students' needs, ultimately enhancing learning outcomes."
+  },
+  {
+    "id": "g013",
+    "question": "How should teachers use the curriculum when planning lessons?",
+    "answer": "Teachers should use the curriculum as a guiding framework to structure their lesson plans. This involves aligning lesson objectives with the curriculum goals, ensuring that the content covered meets the required standards. Additionally, teachers should incorporate a variety of instructional strategies and assessment methods as outlined in the curriculum to cater to diverse learning needs and monitor student progress effectively."
+  },
+  {
+    "id": "g014",
+    "question": "Why are education policies and frameworks important for schools?",
+    "answer": "Education policies and frameworks are essential for schools as they provide a structured approach to delivering consistent and equitable education. They establish guidelines for curriculum development, assessment, and teaching practices, ensuring that all students receive a quality education. Furthermore, these policies help to align resources and support systems needed for effective learning environments, thereby promoting accountability and continuous improvement within the educational system."
+  },
+  {
+    "id": "g015",
+    "question": "How should a teacher connect learning outcomes with assessment when planning a lesson?",
+    "answer": "A teacher should begin by clearly defining the learning outcomes they want students to achieve. These outcomes should be specific, measurable, achievable, relevant, and time-bound (SMART). Once the learning outcomes are established, the teacher can design assessments that directly measure whether those outcomes have been met. This alignment ensures that assessments are meaningful and provide accurate feedback on student understanding and progress."
+  },
+  {
+    "id": "g016",
+    "question": "If a student has difficulty achieving a particular learning outcome, how should the teacher respond while planning instruction and assessment?",
+    "answer": "When a student struggles to achieve a specific learning outcome, teachers should first identify the root causes of the difficulty through assessments or observations. Based on this understanding, they can adapt their instructional strategies by incorporating differentiated instruction, providing additional support or resources, and ensuring that learning activities are engaging and relevant. Furthermore, continuous formative assessments should be integrated to monitor the student's progress and adjust the instruction accordingly, fostering an environment of growth and adaptation."
+  },
+  {
+    "id": "g017",
+    "question": "How can experiential learning be used while still ensuring that the required learning outcomes are assessed?",
+    "answer": "Experiential learning can be used effectively while ensuring that required learning outcomes are assessed by integrating reflective assessments into the learning process. This involves having students reflect on their experiences, connect them to theoretical concepts, and demonstrate understanding through various forms of assessments such as presentations, reports, or portfolios. Additionally, clear learning objectives should be established beforehand, with assessment criteria aligned to these objectives, allowing for the measurement of both the experiences and the achievement of the required outcomes."
+  },
+  {
+    "id": "g018",
+    "question": "If a curriculum recommendation emphasizes learner-centred teaching, what should this mean for classroom practice and assessment?",
+    "answer": "A curriculum recommendation that emphasizes learner-centred teaching should shift classroom practice towards engaging students actively in their own learning process. This means fostering an environment that encourages exploration, collaboration, and critical thinking, allowing learners to take ownership of their educational journey. In terms of assessment, this approach calls for diverse evaluation methods that not only measure knowledge retention but also assess skills such as problem-solving, creativity, and self-reflection, thereby aligning assessment with the learning goals that prioritize student agency and involvement."
+  },
+  {
+    "id": "g019",
+    "question": "What is the best cryptocurrency investment strategy for a school teacher?",
+    "answer": "The best cryptocurrency investment strategy for a school teacher often involves a conservative approach, prioritizing education and risk management. This may include allocating a small percentage of income to cryptocurrencies, diversifying investments, and focusing on well-established coins like Bitcoin and Ethereum. Additionally, it's important to stay informed about market trends and regulatory updates to make educated decisions."
+  },
+  {
+    "id": "g020",
+    "question": "Which visa should a teacher apply for when travelling abroad for a personal holiday?",
+    "answer": "When a teacher is traveling abroad for a personal holiday, they typically need to apply for a tourist visa (often called a visitor visa). This type of visa allows individuals to enter a country for leisure, tourism, or to visit family and friends, without engaging in any professional work activities."
+  }
+]
