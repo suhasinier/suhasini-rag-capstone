@@ -1,0 +1,612 @@
+[
+  {
+    "id": "g001",
+    "question": "What do R1, R2, and R3 mean in the revised language scheme?",
+    "expected_sources": [
+      "33_Circular_2026.pdf",
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "R1 is the first language, R2 is the second language, and R3 is the third language in the revised language scheme. The circular explains the revised arrangement for studying languages.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#0",
+        "score": 0.6007880448174482
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p6",
+        "chunk_id": "Curriculum_SecP1_2026-27_p6#1",
+        "score": 0.5961820231181382
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p22",
+        "chunk_id": "Curriculum_SecP1_2026-27_p22#3",
+        "score": 0.5527824972905545
+      }
+    ]
+  },
+  {
+    "id": "g002",
+    "question": "How many native Indian languages must students study under the revised language scheme?",
+    "expected_sources": [
+      "33_Circular_2026.pdf",
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "Students are required to study at least two native Indian languages as part of the revised language scheme, as described in the curriculum and circular.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p8",
+        "chunk_id": "Curriculum_SecP1_2026-27_p8#2",
+        "score": 0.6786752171006083
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p10",
+        "chunk_id": "Curriculum_SecP1_2026-27_p10#4",
+        "score": 0.6335406909735771
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p6",
+        "chunk_id": "Curriculum_SecP1_2026-27_p6#5",
+        "score": 0.6226742953378599
+      }
+    ]
+  },
+  {
+    "id": "g003",
+    "question": "When may a foreign language be offered in the revised language scheme?",
+    "expected_sources": [
+      "33_Circular_2026.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": false,
+    "out_of_corpus": false,
+    "ideal_answer": "The circular sets conditions for offering a foreign language within the revised scheme. The answer should follow those conditions rather than assume that a foreign language can automatically replace a required native Indian language.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p6",
+        "chunk_id": "Curriculum_SecP1_2026-27_p6#5",
+        "score": 0.6099744739962996
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p19",
+        "chunk_id": "Curriculum_SecP1_2026-27_p19#2",
+        "score": 0.5767427479430534
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p22",
+        "chunk_id": "Curriculum_SecP1_2026-27_p22#3",
+        "score": 0.5718310187248525
+      }
+    ]
+  },
+  {
+    "id": "g004",
+    "question": "What does the curriculum say about choosing R3 when a student has not studied a native Indian language in Classes VI to VIII?",
+    "expected_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The curriculum describes a specific provision for choosing R3 when a student has not studied a native Indian language in Classes VI to VIII. The response should state the provision as written in the curriculum, rather than invent a new rule.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p8",
+        "chunk_id": "Curriculum_SecP1_2026-27_p8#2",
+        "score": 0.7112672143834279
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p10",
+        "chunk_id": "Curriculum_SecP1_2026-27_p10#4",
+        "score": 0.6706443611926789
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p9",
+        "chunk_id": "Curriculum_SecP1_2026-27_p9#1",
+        "score": 0.6658419540203568
+      }
+    ]
+  },
+  {
+    "id": "g005",
+    "question": "Which portal or system is mentioned for updating R3 language information?",
+    "expected_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "33_Circular_2026.pdf",
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The curriculum refers to the OASIS portal for updating R3 language information.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p6",
+        "chunk_id": "Curriculum_SecP1_2026-27_p6#1",
+        "score": 0.5325177531639567
+      },
+      {
+        "source_id": "33_Circular_2026_p4",
+        "chunk_id": "33_Circular_2026_p4#1",
+        "score": 0.529899483635609
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#0",
+        "score": 0.4880415303719795
+      }
+    ]
+  },
+  {
+    "id": "g006",
+    "question": "What prescribed English textbook is listed for Class IX?",
+    "expected_sources": [
+      "English_LL_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf",
+      "ScienceSt_SecP1_2026-27.pdf"
+    ],
+    "hit": false,
+    "out_of_corpus": false,
+    "ideal_answer": "The Class IX English syllabus lists Kaveri as the prescribed textbook.",
+    "top_results": [
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p13",
+        "chunk_id": "Maths_SecP1IX_2026-27_p13#3",
+        "score": 0.6282488284906921
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#6",
+        "score": 0.6145930611863337
+      },
+      {
+        "source_id": "ScienceSt_SecP1_2026-27_p20",
+        "chunk_id": "ScienceSt_SecP1_2026-27_p20#0",
+        "score": 0.6013129501582685
+      }
+    ]
+  },
+  {
+    "id": "g007",
+    "question": "How are marks divided between the Class IX English written examination and internal assessment?",
+    "expected_sources": [
+      "English_LL_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": false,
+    "out_of_corpus": false,
+    "ideal_answer": "The Class IX English syllabus specifies the written-examination and internal-assessment components and their marks. The answer should report the exact split given in the syllabus.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p24",
+        "chunk_id": "Curriculum_SecP1_2026-27_p24#4",
+        "score": 0.7584883177704977
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#0",
+        "score": 0.7314573410744768
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#4",
+        "score": 0.6716489404714423
+      }
+    ]
+  },
+  {
+    "id": "g008",
+    "question": "What does the Class IX English syllabus require students to do in the reading section?",
+    "expected_sources": [
+      "English_LL_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "English_LL_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The reading section assesses students' ability to read and understand passages and answer questions based on them. The syllabus specifies the passage format, lengths, and marks.",
+    "top_results": [
+      {
+        "source_id": "English_LL_SecP1IX_2026-27_p15",
+        "chunk_id": "English_LL_SecP1IX_2026-27_p15#0",
+        "score": 0.6614005598544457
+      },
+      {
+        "source_id": "English_LL_SecP1IX_2026-27_p5",
+        "chunk_id": "English_LL_SecP1IX_2026-27_p5#0",
+        "score": 0.656813592144574
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#1",
+        "score": 0.6145910860275874
+      }
+    ]
+  },
+  {
+    "id": "g009",
+    "question": "What kinds of classroom learning approaches are encouraged in the Class IX English syllabus?",
+    "expected_sources": [
+      "English_LL_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "English_LL_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The syllabus encourages active language learning, including activities, discussion, and opportunities to use language meaningfully, rather than relying only on memorisation.",
+    "top_results": [
+      {
+        "source_id": "English_LL_SecP1IX_2026-27_p5",
+        "chunk_id": "English_LL_SecP1IX_2026-27_p5#0",
+        "score": 0.6615864352140306
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p30",
+        "chunk_id": "Curriculum_SecP1_2026-27_p30#3",
+        "score": 0.6231181258412033
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p10",
+        "chunk_id": "Curriculum_SecP1_2026-27_p10#3",
+        "score": 0.5917777449445893
+      }
+    ]
+  },
+  {
+    "id": "g010",
+    "question": "What broad mathematical abilities does the Class IX Mathematics syllabus aim to develop?",
+    "expected_sources": [
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The syllabus aims to develop mathematical understanding and the ability to reason, solve problems, and apply mathematical ideas. Specific competencies should be described using the wording and emphasis of the syllabus.",
+    "top_results": [
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p1",
+        "chunk_id": "Maths_SecP1IX_2026-27_p1#0",
+        "score": 0.7187531818657285
+      },
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p1",
+        "chunk_id": "Maths_SecP1IX_2026-27_p1#1",
+        "score": 0.6200218438153705
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p10",
+        "chunk_id": "Curriculum_SecP1_2026-27_p10#1",
+        "score": 0.6079968557948926
+      }
+    ]
+  },
+  {
+    "id": "g011",
+    "question": "Which topics are included in the Algebra unit of the Class IX Mathematics syllabus?",
+    "expected_sources": [
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The Algebra unit includes the chapters or topics listed under Algebra in the Class IX Mathematics syllabus. The response should name only topics that appear in that list.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p19",
+        "chunk_id": "Curriculum_SecP1_2026-27_p19#0",
+        "score": 0.6378112788190955
+      },
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p1",
+        "chunk_id": "Maths_SecP1IX_2026-27_p1#0",
+        "score": 0.6304239271306542
+      },
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p13",
+        "chunk_id": "Maths_SecP1IX_2026-27_p13#3",
+        "score": 0.6212615708289114
+      }
+    ]
+  },
+  {
+    "id": "g012",
+    "question": "Which topics are grouped under Geometry and Coordinate Geometry in the Class IX Mathematics syllabus?",
+    "expected_sources": [
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The syllabus lists the relevant Geometry and Coordinate Geometry topics in its unit-wise structure. The answer should follow that list and avoid adding topics not specified there.",
+    "top_results": [
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p4",
+        "chunk_id": "Maths_SecP1IX_2026-27_p4#0",
+        "score": 0.6544111706677094
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p19",
+        "chunk_id": "Curriculum_SecP1_2026-27_p19#0",
+        "score": 0.5802231797961621
+      },
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p1",
+        "chunk_id": "Maths_SecP1IX_2026-27_p1#0",
+        "score": 0.5660323384571511
+      }
+    ]
+  },
+  {
+    "id": "g013",
+    "question": "What are mean, median, and mode in the context of the statistics topics listed for Class IX Mathematics?",
+    "expected_sources": [
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "Mean, median, and mode are measures used to describe a set of data. The Class IX Mathematics syllabus includes these terms in its statistics content.",
+    "top_results": [
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p3",
+        "chunk_id": "Maths_SecP1IX_2026-27_p3#0",
+        "score": 0.5616845159404928
+      },
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p12",
+        "chunk_id": "Maths_SecP1IX_2026-27_p12#1",
+        "score": 0.5279902504738796
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#4",
+        "score": 0.4771840311296652
+      }
+    ]
+  },
+  {
+    "id": "g014",
+    "question": "How does the Class IX Science syllabus divide assessment between theory and internal assessment?",
+    "expected_sources": [
+      "ScienceSt_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": false,
+    "out_of_corpus": false,
+    "ideal_answer": "The Science syllabus specifies marks for the theory examination and internal assessment. The answer should give the exact distribution stated in the Class IX Science syllabus.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#0",
+        "score": 0.7235850691952045
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p24",
+        "chunk_id": "Curriculum_SecP1_2026-27_p24#4",
+        "score": 0.6970594795465062
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p17",
+        "chunk_id": "Curriculum_SecP1_2026-27_p17#0",
+        "score": 0.6422894117649309
+      }
+    ]
+  },
+  {
+    "id": "g015",
+    "question": "A teacher wants to plan Class IX language study while complying with the revised scheme. What two requirements should the teacher check in the curriculum documents before advising students?",
+    "expected_sources": [
+      "33_Circular_2026.pdf",
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "The teacher should check the definitions and requirements for R1, R2, and R3, including the requirement concerning native Indian languages, and should apply the specific conditions and exceptions stated in CBSE Circular Acad-33/2026 and Secondary Curriculum Part I. The teacher should not infer a rule that is not stated in those documents.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p8",
+        "chunk_id": "Curriculum_SecP1_2026-27_p8#3",
+        "score": 0.5648928447416627
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#6",
+        "score": 0.5632359629810357
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#1",
+        "score": 0.5531486617977167
+      }
+    ]
+  },
+  {
+    "id": "g016",
+    "question": "A Class IX Science teacher wants to design a lesson and assessment plan. How should the teacher use both the syllabus content and the assessment information in the Science curriculum?",
+    "expected_sources": [
+      "ScienceSt_SecP1_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": false,
+    "out_of_corpus": false,
+    "ideal_answer": "The teacher should plan learning around the topics and learning expectations listed in the Science syllabus and align assessment with the theory and internal-assessment structure stated there. Any specific practical activities or assessment details should be taken directly from the syllabus.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p38",
+        "chunk_id": "Curriculum_SecP1_2026-27_p38#2",
+        "score": 0.6512045752707212
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p31",
+        "chunk_id": "Curriculum_SecP1_2026-27_p31#1",
+        "score": 0.6018255323169334
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p19",
+        "chunk_id": "Curriculum_SecP1_2026-27_p19#4",
+        "score": 0.5785094392631552
+      }
+    ]
+  },
+  {
+    "id": "g017",
+    "question": "A school wants to check whether its Class IX Mathematics plan covers the required content and supports students' mathematical thinking. What should it compare?",
+    "expected_sources": [
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "hit": true,
+    "out_of_corpus": false,
+    "ideal_answer": "It should compare the teaching plan with the units, topics, and competencies described in the Class IX Mathematics syllabus, checking both content coverage and the mathematical reasoning or problem-solving expectations stated by the syllabus.",
+    "top_results": [
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p1",
+        "chunk_id": "Maths_SecP1IX_2026-27_p1#0",
+        "score": 0.6109657161072664
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p20",
+        "chunk_id": "Curriculum_SecP1_2026-27_p20#4",
+        "score": 0.5454051820704514
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#4",
+        "score": 0.5328842432652725
+      }
+    ]
+  },
+  {
+    "id": "g018",
+    "question": "How can a teacher use the Class IX Social Science syllabus to plan learning across its different subject areas without treating the course as only a list of facts?",
+    "expected_sources": [
+      "SocialScience_SecP1IX_2026-27.pdf"
+    ],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf",
+      "Maths_SecP1IX_2026-27.pdf"
+    ],
+    "hit": false,
+    "out_of_corpus": false,
+    "ideal_answer": "The teacher should use the disciplines and topics listed in the Social Science syllabus to organise the course, while also attending to the skills and learning expectations specified there. The plan should reflect the syllabus rather than add unsupported requirements.",
+    "top_results": [
+      {
+        "source_id": "Maths_SecP1IX_2026-27_p1",
+        "chunk_id": "Maths_SecP1IX_2026-27_p1#0",
+        "score": 0.5410513918995903
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p7",
+        "chunk_id": "Curriculum_SecP1_2026-27_p7#6",
+        "score": 0.534916718146826
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p38",
+        "chunk_id": "Curriculum_SecP1_2026-27_p38#2",
+        "score": 0.5346539222944399
+      }
+    ]
+  },
+  {
+    "id": "g019",
+    "question": "What are the exact dates for the 2026–27 Class IX final examinations at my school?",
+    "expected_sources": [],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": null,
+    "out_of_corpus": true,
+    "ideal_answer": "The provided six curriculum documents do not give the exact final-examination dates for your school. Please check the school's official examination timetable.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p19",
+        "chunk_id": "Curriculum_SecP1_2026-27_p19#4",
+        "score": 0.5827787326958194
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#4",
+        "score": 0.5715885498302952
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p25",
+        "chunk_id": "Curriculum_SecP1_2026-27_p25#0",
+        "score": 0.5668169434208651
+      }
+    ]
+  },
+  {
+    "id": "g020",
+    "question": "What is the current Class IX tuition fee at my school for the 2026–27 academic year?",
+    "expected_sources": [],
+    "retrieved_sources": [
+      "Curriculum_SecP1_2026-27.pdf"
+    ],
+    "hit": null,
+    "out_of_corpus": true,
+    "ideal_answer": "The provided six curriculum documents do not contain your school's current tuition fee. Please check the school's official fee circular or contact the school.",
+    "top_results": [
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p16",
+        "chunk_id": "Curriculum_SecP1_2026-27_p16#3",
+        "score": 0.47746067898960065
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#0",
+        "score": 0.46918316524230125
+      },
+      {
+        "source_id": "Curriculum_SecP1_2026-27_p26",
+        "chunk_id": "Curriculum_SecP1_2026-27_p26#4",
+        "score": 0.44832489430307526
+      }
+    ]
+  }
+]
