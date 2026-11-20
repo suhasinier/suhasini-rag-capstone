@@ -25,10 +25,26 @@ def main():
             print("No evaluation records found.")
             return
 
-        hits = sum(bool(record.get("hit", False)) for record in records)
-        rate = hits / len(records)
+        # Exclude out-of-corpus questions (hit=None)
+        in_corpus_records = [
+            record for record in records
+            if record.get("hit") is not None
+        ]
+
+        if not in_corpus_records:
+            print("No in-corpus evaluation records found.")
+            return
+
+        hits = sum(
+            bool(record.get("hit")) for record in in_corpus_records
+        )
+        total = len(in_corpus_records)
+        rate = hits / total
+
         print(f"Label: {args.label}")
-        print(f"Retrieval hit rate: {hits}/{len(records)} = {rate:.2%}")
+        print(f"In-corpus questions: {total}")
+        print(f"Retrieval hits: {hits}")
+        print(f"Retrieval hit rate: {hits}/{total} = {rate:.2%}")
 
     else:
         print(
