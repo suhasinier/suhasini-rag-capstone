@@ -1,0 +1,541 @@
+{
+  "question_count": 20,
+  "embedding_model": "text-embedding-3-small",
+  "chat_model": "gpt-4o-mini",
+  "collection": "capstone_chunks_v2",
+  "top_k": 3,
+  "latency_p50_ms": 2222.6890024999193,
+  "latency_p95_ms": 3943.2872490992395,
+  "average_cost_per_query_usd": 0.000111629,
+  "total_cost_usd": 0.0022325800000000005,
+  "total_embedding_tokens": 389,
+  "total_llm_input_tokens": 8560,
+  "total_llm_output_tokens": 1568,
+  "pricing_assumptions_usd_per_million_tokens": {
+    "text_embedding_3_small": 0.02,
+    "gpt_4o_mini_input": 0.15,
+    "gpt_4o_mini_output": 0.6
+  },
+  "results": [
+    {
+      "question_id": "g001",
+      "question": "What do R1, R2, and R3 mean in the revised language scheme?",
+      "answer": "The provided context does not contain any information about R1, R2, and R3 in the revised language scheme.",
+      "sources": [
+        "33_Circular_2026.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "33_Circular_2026.pdf"
+      ],
+      "chunk_ids": [
+        "33_Circular_2026#3",
+        "Curriculum_SecP1_2026-27#34",
+        "33_Circular_2026#4"
+      ],
+      "embedding_tokens": 18,
+      "llm_input_tokens": 333,
+      "llm_output_tokens": 24,
+      "embedding_cost_usd": 3.6e-07,
+      "llm_input_cost_usd": 4.9949999999999994e-05,
+      "llm_output_cost_usd": 1.44e-05,
+      "total_cost_usd": 6.471e-05,
+      "embedding_latency_ms": 690.2220900001339,
+      "retrieval_latency_ms": 583.0731949999972,
+      "generation_latency_ms": 1237.0024649999323,
+      "total_latency_ms": 2510.3106119995573
+    },
+    {
+      "question_id": "g002",
+      "question": "How many native Indian languages must students study under the revised language scheme?",
+      "answer": "Students must study at least two native Indian languages under the revised language scheme for Class IX [33_Circular_2026#3].",
+      "sources": [
+        "33_Circular_2026.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "33_Circular_2026#3",
+        "Curriculum_SecP1_2026-27#34",
+        "Curriculum_SecP1_2026-27#22"
+      ],
+      "embedding_tokens": 14,
+      "llm_input_tokens": 322,
+      "llm_output_tokens": 27,
+      "embedding_cost_usd": 2.8e-07,
+      "llm_input_cost_usd": 4.8299999999999995e-05,
+      "llm_output_cost_usd": 1.62e-05,
+      "total_cost_usd": 6.477999999999999e-05,
+      "embedding_latency_ms": 457.9020480005056,
+      "retrieval_latency_ms": 290.8249199999773,
+      "generation_latency_ms": 1186.812936000024,
+      "total_latency_ms": 1935.5547940003817
+    },
+    {
+      "question_id": "g003",
+      "question": "When may a foreign language be offered in the revised language scheme?",
+      "answer": "A foreign language may be offered as part of the three-language formula along with two native languages, or as a fourth additional language. For students currently in class X covered by the previous scheme, it is compulsory that all students must have studied three languages up to class VIII. Additionally, students may study a foreign language as the third language only if the other two languages are native languages, or as an additional fourth language [Curriculum_SecP1_2026-27#34][33_Circular_2026#4].",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "33_Circular_2026.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#34",
+        "33_Circular_2026#4",
+        "Curriculum_SecP1_2026-27#107"
+      ],
+      "embedding_tokens": 13,
+      "llm_input_tokens": 355,
+      "llm_output_tokens": 106,
+      "embedding_cost_usd": 2.6e-07,
+      "llm_input_cost_usd": 5.325e-05,
+      "llm_output_cost_usd": 6.36e-05,
+      "total_cost_usd": 0.00011711,
+      "embedding_latency_ms": 523.9162039997609,
+      "retrieval_latency_ms": 290.9508349994212,
+      "generation_latency_ms": 2283.1935260001046,
+      "total_latency_ms": 3098.0739590004305
+    },
+    {
+      "question_id": "g004",
+      "question": "What does the curriculum say about choosing R3 when a student has not studied a native Indian language in Classes VI to VIII?",
+      "answer": "For students who have not studied even one native Indian language in classes VI-VIII, a native Indian language will be compulsory for them in class IX. This means that they must choose a native Indian language as part of their language options for class IX [Curriculum_SecP1_2026-27#32].",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#34",
+        "Curriculum_SecP1_2026-27#32",
+        "Curriculum_SecP1_2026-27#17"
+      ],
+      "embedding_tokens": 25,
+      "llm_input_tokens": 581,
+      "llm_output_tokens": 64,
+      "embedding_cost_usd": 5e-07,
+      "llm_input_cost_usd": 8.714999999999999e-05,
+      "llm_output_cost_usd": 3.84e-05,
+      "total_cost_usd": 0.00012605,
+      "embedding_latency_ms": 385.1435449996643,
+      "retrieval_latency_ms": 292.1427479996055,
+      "generation_latency_ms": 1585.0820870000462,
+      "total_latency_ms": 2262.383475000206
+    },
+    {
+      "question_id": "g005",
+      "question": "Which portal or system is mentioned for updating R3 language information?",
+      "answer": "The portal mentioned for updating R3 language information is the <LOCATION> portal [33_Circular_2026#14].",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "33_Circular_2026.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#16",
+        "33_Circular_2026#14",
+        "Curriculum_SecP1_2026-27#33"
+      ],
+      "embedding_tokens": 13,
+      "llm_input_tokens": 436,
+      "llm_output_tokens": 25,
+      "embedding_cost_usd": 2.6e-07,
+      "llm_input_cost_usd": 6.539999999999999e-05,
+      "llm_output_cost_usd": 1.5e-05,
+      "total_cost_usd": 8.065999999999999e-05,
+      "embedding_latency_ms": 429.09315599990805,
+      "retrieval_latency_ms": 290.58434099988517,
+      "generation_latency_ms": 869.8790420003206,
+      "total_latency_ms": 1589.5685940004114
+    },
+    {
+      "question_id": "g006",
+      "question": "What prescribed English textbook is listed for Class IX?",
+      "answer": "The provided context does not contain information about a prescribed English textbook for Class IX.",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "SocialScience_SecP1IX_2026-27.pdf",
+        "ScienceSt_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#24",
+        "SocialScience_SecP1IX_2026-27#113",
+        "ScienceSt_SecP1_2026-27#58"
+      ],
+      "embedding_tokens": 10,
+      "llm_input_tokens": 489,
+      "llm_output_tokens": 16,
+      "embedding_cost_usd": 2.0000000000000002e-07,
+      "llm_input_cost_usd": 7.335e-05,
+      "llm_output_cost_usd": 9.6e-06,
+      "total_cost_usd": 8.315e-05,
+      "embedding_latency_ms": 414.9307970001246,
+      "retrieval_latency_ms": 290.9964079999554,
+      "generation_latency_ms": 818.4901180002271,
+      "total_latency_ms": 1524.4337710000764
+    },
+    {
+      "question_id": "g007",
+      "question": "How are marks divided between the Class IX English written examination and internal assessment?",
+      "answer": "In Class IX, the marks are divided as follows: the written examination is worth 80 marks, and the internal assessment is worth 20 marks. The internal assessment consists of periodic 'pen and paper tests' (5 marks), multiple assessments (quizzes/oral discussions/presentations, 5 marks), a portfolio (5 marks), and subject enrichment projects (5 marks) [Curriculum_SecP1_2026-27#144][English_LL_SecP1IX_2026-27#106].",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "English_LL_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#144",
+        "Curriculum_SecP1_2026-27#154",
+        "English_LL_SecP1IX_2026-27#106"
+      ],
+      "embedding_tokens": 15,
+      "llm_input_tokens": 433,
+      "llm_output_tokens": 106,
+      "embedding_cost_usd": 3e-07,
+      "llm_input_cost_usd": 6.495e-05,
+      "llm_output_cost_usd": 6.36e-05,
+      "total_cost_usd": 0.00012885000000000001,
+      "embedding_latency_ms": 372.2662660002243,
+      "retrieval_latency_ms": 290.74788100024307,
+      "generation_latency_ms": 2522.23468900047,
+      "total_latency_ms": 3185.260568000558
+    },
+    {
+      "question_id": "g008",
+      "question": "What does the Class IX English syllabus require students to do in the reading section?",
+      "answer": "The Class IX English syllabus requires students to focus on Reading Skills, which is allocated 20 marks in the assessment. However, the specific activities or requirements for the reading section are not detailed in the provided context. [English_LL_SecP1IX_2026-27#98]",
+      "sources": [
+        "English_LL_SecP1IX_2026-27.pdf",
+        "English_LL_SecP1IX_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "English_LL_SecP1IX_2026-27#0",
+        "English_LL_SecP1IX_2026-27#98",
+        "Curriculum_SecP1_2026-27#24"
+      ],
+      "embedding_tokens": 17,
+      "llm_input_tokens": 389,
+      "llm_output_tokens": 58,
+      "embedding_cost_usd": 3.4000000000000003e-07,
+      "llm_input_cost_usd": 5.8349999999999995e-05,
+      "llm_output_cost_usd": 3.48e-05,
+      "total_cost_usd": 9.349e-05,
+      "embedding_latency_ms": 375.92529300036404,
+      "retrieval_latency_ms": 291.0473039992212,
+      "generation_latency_ms": 1462.6774349999323,
+      "total_latency_ms": 2129.6639649999634
+    },
+    {
+      "question_id": "g009",
+      "question": "What kinds of classroom learning approaches are encouraged in the Class IX English syllabus?",
+      "answer": "The Class IX English syllabus encourages a range of classroom learning approaches, including quizzes, worksheets, oral presentations, and class discussions [English_LL_SecP1IX_2026-27#86].",
+      "sources": [
+        "English_LL_SecP1IX_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "English_LL_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "English_LL_SecP1IX_2026-27#0",
+        "Curriculum_SecP1_2026-27#77",
+        "English_LL_SecP1IX_2026-27#86"
+      ],
+      "embedding_tokens": 16,
+      "llm_input_tokens": 373,
+      "llm_output_tokens": 40,
+      "embedding_cost_usd": 3.2e-07,
+      "llm_input_cost_usd": 5.595e-05,
+      "llm_output_cost_usd": 2.4e-05,
+      "total_cost_usd": 8.026999999999999e-05,
+      "embedding_latency_ms": 406.7050060002657,
+      "retrieval_latency_ms": 292.2414349995961,
+      "generation_latency_ms": 1354.4299830000455,
+      "total_latency_ms": 2053.3924229994227
+    },
+    {
+      "question_id": "g010",
+      "question": "What broad mathematical abilities does the Class IX Mathematics syllabus aim to develop?",
+      "answer": "The Class IX Mathematics syllabus aims to develop the following broad mathematical abilities:\n\n1. Logical thinking, critical reasoning, and a structured approach to problem-solving.\n2. The ability to recognise, analyse, and solve diverse problems with confidence and adaptability.\n3. Effective communication of mathematical ideas using appropriate language, symbols, and representations.\n4. Appreciation of the beauty, history, and real-life relevance of Mathematics.\n5. Connection of mathematical concepts to fields such as Science, Technology, Engineering, and Economics.\n6. Engagement in both collaborative and independent mathematical exploration and learning.\n7. Habits of precision, accuracy, and logical consistency in mathematical work.\n8. Confidence to explore, experiment, and grow in mathematical understanding without fear of failure [Maths_SecP1IX_2026-27#7].",
+      "sources": [
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Maths_SecP1IX_2026-27#0",
+        "Maths_SecP1IX_2026-27#1",
+        "Maths_SecP1IX_2026-27#7"
+      ],
+      "embedding_tokens": 15,
+      "llm_input_tokens": 456,
+      "llm_output_tokens": 161,
+      "embedding_cost_usd": 3e-07,
+      "llm_input_cost_usd": 6.84e-05,
+      "llm_output_cost_usd": 9.659999999999999e-05,
+      "total_cost_usd": 0.00016529999999999998,
+      "embedding_latency_ms": 432.26597499960917,
+      "retrieval_latency_ms": 291.5252490001876,
+      "generation_latency_ms": 3078.6369540001033,
+      "total_latency_ms": 3802.443913999923
+    },
+    {
+      "question_id": "g011",
+      "question": "Which topics are included in the Algebra unit of the Class IX Mathematics syllabus?",
+      "answer": "The topics included in the Algebra unit of the Class IX Mathematics syllabus are:\n\n- Introduction to Polynomials\n- Sequences and Progressions\n- Exploring Algebraic Identities\n- Linear Equations in Two Variables [Maths_SecP1IX_2026-27#27].",
+      "sources": [
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Maths_SecP1IX_2026-27#27",
+        "Maths_SecP1IX_2026-27#0",
+        "Curriculum_SecP1_2026-27#47"
+      ],
+      "embedding_tokens": 16,
+      "llm_input_tokens": 509,
+      "llm_output_tokens": 58,
+      "embedding_cost_usd": 3.2e-07,
+      "llm_input_cost_usd": 7.635e-05,
+      "llm_output_cost_usd": 3.48e-05,
+      "total_cost_usd": 0.00011146999999999999,
+      "embedding_latency_ms": 386.4629089994196,
+      "retrieval_latency_ms": 290.7213429998592,
+      "generation_latency_ms": 1505.7965760006482,
+      "total_latency_ms": 2182.9945299996325
+    },
+    {
+      "question_id": "g012",
+      "question": "Which topics are grouped under Geometry and Coordinate Geometry in the Class IX Mathematics syllabus?",
+      "answer": "Under Geometry, the topics are:\n- Introduction to Euclid’s Geometry: Axioms and Postulates\n- Lines and Angles\n- Triangles – Congruence Theorems\n- 4-gons (Quadrilaterals)\n- Circles\n\nUnder Coordinate Geometry, the topic is:\n- Coordinate Geometry [Maths_SecP1IX_2026-27#27].",
+      "sources": [
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Maths_SecP1IX_2026-27#0",
+        "Maths_SecP1IX_2026-27#42",
+        "Maths_SecP1IX_2026-27#27"
+      ],
+      "embedding_tokens": 17,
+      "llm_input_tokens": 454,
+      "llm_output_tokens": 81,
+      "embedding_cost_usd": 3.4000000000000003e-07,
+      "llm_input_cost_usd": 6.809999999999999e-05,
+      "llm_output_cost_usd": 4.86e-05,
+      "total_cost_usd": 0.00011703999999999999,
+      "embedding_latency_ms": 410.7230799991157,
+      "retrieval_latency_ms": 290.7587979998425,
+      "generation_latency_ms": 2118.4946849998596,
+      "total_latency_ms": 2819.9891199992635
+    },
+    {
+      "question_id": "g013",
+      "question": "What are mean, median, and mode in the context of the statistics topics listed for Class IX Mathematics?",
+      "answer": "The context does not provide specific definitions or explanations for mean, median, and mode. It only mentions that these are measures of central tendency that can be applied in analyzing and interpreting data for decision-making [Maths_SecP1IX_2026-27#79] and that they are part of the statistical concepts to be analyzed and interpreted [Maths_SecP1IX_2026-27#18].",
+      "sources": [
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf",
+        "Maths_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Maths_SecP1IX_2026-27#79",
+        "Maths_SecP1IX_2026-27#18",
+        "Maths_SecP1IX_2026-27#87"
+      ],
+      "embedding_tokens": 21,
+      "llm_input_tokens": 328,
+      "llm_output_tokens": 85,
+      "embedding_cost_usd": 4.2e-07,
+      "llm_input_cost_usd": 4.9199999999999997e-05,
+      "llm_output_cost_usd": 5.1e-05,
+      "total_cost_usd": 0.00010062,
+      "embedding_latency_ms": 415.1038560003144,
+      "retrieval_latency_ms": 290.7420159999674,
+      "generation_latency_ms": 2006.7924229997516,
+      "total_latency_ms": 2712.6508860001195
+    },
+    {
+      "question_id": "g014",
+      "question": "How does the Class IX Science syllabus divide assessment between theory and internal assessment?",
+      "answer": "The provided context does not contain specific information about how the Class IX Science syllabus divides assessment between theory and internal assessment.",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "SocialScience_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#154",
+        "Curriculum_SecP1_2026-27#144",
+        "SocialScience_SecP1IX_2026-27#111"
+      ],
+      "embedding_tokens": 16,
+      "llm_input_tokens": 433,
+      "llm_output_tokens": 23,
+      "embedding_cost_usd": 3.2e-07,
+      "llm_input_cost_usd": 6.495e-05,
+      "llm_output_cost_usd": 1.3799999999999998e-05,
+      "total_cost_usd": 7.907e-05,
+      "embedding_latency_ms": 349.729266000395,
+      "retrieval_latency_ms": 331.462307000038,
+      "generation_latency_ms": 1048.338376999709,
+      "total_latency_ms": 1729.5445790005033
+    },
+    {
+      "question_id": "g015",
+      "question": "A teacher wants to plan Class IX language study while complying with the revised scheme. What two requirements should the teacher check in the curriculum documents before advising students?",
+      "answer": "The teacher should check the following two requirements in the curriculum documents before advising students:\n\n1. The study of three languages is compulsory for Class IX, with at least two of those languages being native languages [33_Circular_2026#3].\n2. Students in Class IX shall study the Class VI level textbooks published/prescribed by NCERT/CBSE, along with one local literary text [Curriculum_SecP1_2026-27#24].",
+      "sources": [
+        "33_Circular_2026.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "33_Circular_2026.pdf"
+      ],
+      "chunk_ids": [
+        "33_Circular_2026#3",
+        "Curriculum_SecP1_2026-27#24",
+        "33_Circular_2026#2"
+      ],
+      "embedding_tokens": 31,
+      "llm_input_tokens": 406,
+      "llm_output_tokens": 94,
+      "embedding_cost_usd": 6.2e-07,
+      "llm_input_cost_usd": 6.0899999999999996e-05,
+      "llm_output_cost_usd": 5.6399999999999995e-05,
+      "total_cost_usd": 0.00011791999999999998,
+      "embedding_latency_ms": 390.6094820004,
+      "retrieval_latency_ms": 290.83350700057053,
+      "generation_latency_ms": 2263.218474999121,
+      "total_latency_ms": 2944.6743630005585
+    },
+    {
+      "question_id": "g016",
+      "question": "A Class IX Science teacher wants to design a lesson and assessment plan. How should the teacher use both the syllabus content and the assessment information in the Science curriculum?",
+      "answer": "The Class IX Science teacher should incorporate the following strategies based on the syllabus content and assessment information:\n\n1. **Integrate Competencies**: The teacher should focus on the competencies outlined in the assessment design, ensuring that 50% of the lesson plan demonstrates knowledge and understanding, 30% applies knowledge/concepts, and 20% formulates, analyzes, evaluates, and creates [ScienceSt_SecP1_2026-27#58].\n\n2. **Incorporate Diverse Learning Approaches**: The teacher should include experiential and inquiry-based learning, discussions, debates, and reflective dialogues in the lesson plan. Additionally, art-integrated and interdisciplinary approaches should be utilized, along with real-life applications and local contextual examples [Curriculum_SecP1_2026-27#236].\n\n3. **Utilize Assessment Types**: The teacher should design assessments that include various types of questions such as very short answer (VSA) questions, objective type questions, assertion-reasoning type questions, and source-based/case-based questions to evaluate students comprehensively [ScienceSt_SecP1_2026-27#58].\n\n4. **Plan for Targeted Remediation**: The teacher should analyze data from SAFAL reports to understand the strengths and weaknesses at the school level and plan targeted remediation based on competency-level performance data [Curriculum_SecP1_2026-27#236].\n\n5. **Develop Activity-Based Learning**: The teacher should create activity books and handbooks that guide the sequence of lessons and assessments, ensuring they align with the syllabus and check for the achievement of learning outcomes [Curriculum_SecP1_2026-27#265].\n\nBy following these guidelines, the teacher can effectively design a lesson and assessment plan that aligns with the curriculum requirements and enhances student learning.",
+      "sources": [
+        "ScienceSt_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "ScienceSt_SecP1_2026-27#58",
+        "Curriculum_SecP1_2026-27#236",
+        "Curriculum_SecP1_2026-27#265"
+      ],
+      "embedding_tokens": 33,
+      "llm_input_tokens": 511,
+      "llm_output_tokens": 367,
+      "embedding_cost_usd": 6.6e-07,
+      "llm_input_cost_usd": 7.664999999999999e-05,
+      "llm_output_cost_usd": 0.00022019999999999999,
+      "total_cost_usd": 0.00029750999999999996,
+      "embedding_latency_ms": 440.1760330001707,
+      "retrieval_latency_ms": 290.86295799970685,
+      "generation_latency_ms": 5262.06700900002,
+      "total_latency_ms": 5993.119179999667
+    },
+    {
+      "question_id": "g017",
+      "question": "A school wants to check whether its Class IX Mathematics plan covers the required content and supports students' mathematical thinking. What should it compare?",
+      "answer": "The school should compare its Class IX Mathematics plan with the redesigned Mathematics curriculum that aligns with the National Education Policy and the National Curriculum Framework for School Education. Specifically, it should ensure that the plan covers the strong conceptual foundations in number systems, algebra, geometry, mensuration, statistics, and probability, and encourages engagement with mathematical reasoning, argumentation, and proof. Additionally, the school should verify that the plan supports the development of problem formulation, strategy selection, result analysis, and clear communication of mathematical ideas as outlined in the curriculum [Maths_SecP1IX_2026-27#0][Curriculum_SecP1_2026-27#47].",
+      "sources": [
+        "Maths_SecP1IX_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Maths_SecP1IX_2026-27#0",
+        "Curriculum_SecP1_2026-27#109",
+        "Curriculum_SecP1_2026-27#47"
+      ],
+      "embedding_tokens": 27,
+      "llm_input_tokens": 610,
+      "llm_output_tokens": 135,
+      "embedding_cost_usd": 5.4e-07,
+      "llm_input_cost_usd": 9.15e-05,
+      "llm_output_cost_usd": 8.1e-05,
+      "total_cost_usd": 0.00017304,
+      "embedding_latency_ms": 393.5371589996066,
+      "retrieval_latency_ms": 581.7447709996486,
+      "generation_latency_ms": 2860.10549599996,
+      "total_latency_ms": 3835.401357999217
+    },
+    {
+      "question_id": "g018",
+      "question": "How can a teacher use the Class IX Social Science syllabus to plan learning across its different subject areas without treating the course as only a list of facts?",
+      "answer": "The context does not provide specific strategies for how a teacher can use the Class IX Social Science syllabus to plan learning across its different subject areas. It mentions the aims of teaching Social Science and the purpose of education but does not detail methods for integrating the syllabus effectively.",
+      "sources": [
+        "SocialScience_SecP1IX_2026-27.pdf",
+        "SocialScience_SecP1IX_2026-27.pdf",
+        "SocialScience_SecP1IX_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "SocialScience_SecP1IX_2026-27#11",
+        "SocialScience_SecP1IX_2026-27#0",
+        "SocialScience_SecP1IX_2026-27#2"
+      ],
+      "embedding_tokens": 31,
+      "llm_input_tokens": 370,
+      "llm_output_tokens": 52,
+      "embedding_cost_usd": 6.2e-07,
+      "llm_input_cost_usd": 5.55e-05,
+      "llm_output_cost_usd": 3.12e-05,
+      "total_cost_usd": 8.732e-05,
+      "embedding_latency_ms": 357.2590379999383,
+      "retrieval_latency_ms": 291.11782600011793,
+      "generation_latency_ms": 1223.2442600006834,
+      "total_latency_ms": 1871.6335089993663
+    },
+    {
+      "question_id": "g019",
+      "question": "What are the exact dates for the 2026–27 Class IX final examinations at my school?",
+      "answer": "The context does not provide the exact dates for the 2026–27 Class IX final examinations at your school.",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#147",
+        "Curriculum_SecP1_2026-27#154",
+        "Curriculum_SecP1_2026-27#118"
+      ],
+      "embedding_tokens": 20,
+      "llm_input_tokens": 381,
+      "llm_output_tokens": 23,
+      "embedding_cost_usd": 4.0000000000000003e-07,
+      "llm_input_cost_usd": 5.715e-05,
+      "llm_output_cost_usd": 1.3799999999999998e-05,
+      "total_cost_usd": 7.135e-05,
+      "embedding_latency_ms": 427.7270279999357,
+      "retrieval_latency_ms": 291.14058100003604,
+      "generation_latency_ms": 893.4078659995066,
+      "total_latency_ms": 1612.3159839999062
+    },
+    {
+      "question_id": "g020",
+      "question": "What is the current Class IX tuition fee at my school for the 2026–27 academic year?",
+      "answer": "The provided context does not contain information about the Class IX tuition fee for the 2026–27 academic year.",
+      "sources": [
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf",
+        "Curriculum_SecP1_2026-27.pdf"
+      ],
+      "chunk_ids": [
+        "Curriculum_SecP1_2026-27#154",
+        "Curriculum_SecP1_2026-27#96",
+        "Curriculum_SecP1_2026-27#161"
+      ],
+      "embedding_tokens": 21,
+      "llm_input_tokens": 391,
+      "llm_output_tokens": 23,
+      "embedding_cost_usd": 4.2e-07,
+      "llm_input_cost_usd": 5.8649999999999996e-05,
+      "llm_output_cost_usd": 1.3799999999999998e-05,
+      "total_cost_usd": 7.287e-05,
+      "embedding_latency_ms": 397.78223900066223,
+      "retrieval_latency_ms": 291.4254970000911,
+      "generation_latency_ms": 1058.5616640000808,
+      "total_latency_ms": 1747.7834829996937
+    }
+  ]
+}
