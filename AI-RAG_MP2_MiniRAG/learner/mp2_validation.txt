@@ -1,0 +1,48 @@
+WEEK 9 MINI PROJECT — VALIDATION RESULTS
+
+Command executed:
+python mp2_rag.py validate
+
+PREDEFINED QUESTIONS
+
+✓ q1_red_headed_league_assistant
+Question: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+Cited: 01_red_headed_league.txt
+Expected: 01_red_headed_league.txt
+Facts matched: 2/5
+
+✓ q2_speckled_band_murder_weapon
+Question: What killed Julia Stoner at Stoke Moran, and how was the method discovered?
+Cited: 02_speckled_band.txt
+Expected: 02_speckled_band.txt
+Facts matched: 2/6
+
+Source-match: 2/2
+
+
+LEARNER-AUTHORED QUESTIONS
+
+✓ q3_blue_carbuncle_discovery
+Question: Who discovered the Blue Carbuncle inside the Christmas goose, and where was it found?
+Cited: 03_blue_carbuncle.txt
+Expected: 03_blue_carbuncle.txt
+Facts matched: 2/2
+
+✓ q4_scandal_in_bohemia_marriage
+Question: Who was Irene Adler's regular gentleman caller, and what happened when Holmes followed them to St Monica's?
+Cited: 05_scandal_in_bohemia.txt
+Expected: 05_scandal_in_bohemia.txt
+Facts matched: 3/3
+
+✓ q5_red_headed_league_deduction
+Question: How did Holmes connect Vincent Spaulding's behaviour and the location of Wilson's shop to the planned bank robbery?
+Cited: 01_red_headed_league.txt
+Expected: 01_red_headed_league.txt
+Facts matched: 2/3
+
+Source-match: 3/3
+
+
+OVERALL RESULT
+
+All five questions passed the expected source-match check: 5/5.
